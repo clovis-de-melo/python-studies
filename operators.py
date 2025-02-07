@@ -21,12 +21,27 @@ print(100 // 20)
 print("Python Assignment Operators")
 
 # = 
-# example: x = 5
+# Example: x = 5
 # same as: x = 5 
 
+x = 5
+print(x)
+
 # +=
-# example: x += 3
+# Example: x += 3
 # same as: x = x + 3
+
+x = 5 
+x += 3
+print(x)
+
+# -=
+# Example: x -= 3
+# same a: x = x * 3
+
+x = 5 
+x -= 3
+print(x)
 
 
 # Python Comparison Operators
