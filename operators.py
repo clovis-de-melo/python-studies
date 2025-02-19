@@ -15,7 +15,7 @@ print(100 * 20)
 print(100 / 20)
 print(100 % 20)
 print(100 ** 20)
-print(100 // 20)
+print(11 // 2) # 5 the floor division // rounds the result down to the nearest whole number
 
 # Python Assignment Operators
 print("Python Assignment Operators")
