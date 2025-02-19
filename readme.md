@@ -2,6 +2,14 @@
 
 ## Developer commands
 
+## Keywords
+
+`Pyhton`
+
+`Jupyter`
+
+`Anaconda`
+
 ## References
 
 `W3 Schools`
