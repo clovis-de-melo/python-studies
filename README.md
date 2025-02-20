@@ -1,6 +1,8 @@
 # Python studies
 
-### Developer commands
+Repository created in order to study and test Python programming language. 
+
+## Developer commands
 
 *Python* 
 
@@ -30,7 +32,7 @@ E.g: *node_modules*
 git rm -r --cached ./node_modules
 ```
 
-### Keywords
+## Keywords
 
 `Pyhton`
 
@@ -106,7 +108,7 @@ Google Colab, or Colaboratory, is a free, browser-based environment for writing 
 * You can combine code, rich text, images, HTML, and LaTeX in your notebooks. 
 * You can access your Google Drive directly from your notebook. 
 
-### References
+## References
 
 `W3 Schools`
 
