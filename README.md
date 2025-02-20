@@ -44,6 +44,20 @@ In Python, single line comments starts with hashtag symbol #
 ```
 # this is a single line comment 
 ```
+Python does not provide the option for multiline comments. However, there are different ways through which we can write multiline comments.
+
+Multiline comments using multiple hashtags (#)
+
+We can multiple hashtags (#) to write multiline comments in Python. Each and every line will be considered as a single-line comment.
+
+```
+# Python program to demonstrate
+# multiline comments
+print("Thanks for reading this documentation!")
+````
+
+
+
 
 ```
 """ 
@@ -54,10 +68,15 @@ this is a multi-line comment with Docstring
 """
 ``` 
 
+`Data types`
 
+* Strings
 
+* Int
 
+* Float
 
+* Boolean 
 
 ## Developer commands
 
@@ -152,6 +171,8 @@ Google Colab, or Colaboratory, is a free, browser-based environment for writing 
 * You can write and execute Python code in a web browser. 
 * You can combine code, rich text, images, HTML, and LaTeX in your notebooks. 
 * You can access your Google Drive directly from your notebook. 
+
+`CRLF`
 
 
 
