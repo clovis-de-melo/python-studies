@@ -32,7 +32,7 @@ git rm -r --cached ./node_modules
 
 `Anaconda`
 
-`Google Collab`
+`Google Colab`
 
 ### References
 
