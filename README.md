@@ -7,6 +7,8 @@
 ```
 python --version
 
+py --version
+
 python app.py
 ```
 
