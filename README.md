@@ -2,6 +2,61 @@
 
 Repository created in order to study and test Python programming language. 
 
+## Main notes
+
+`What is Python?`
+
+Created by Guido van Rossum, and released in 1991, Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
+
+Python is widely used in: 
+
+* Software Development
+* Web Development 
+* Data Science 
+* Machine Learning
+* Scientific Computing
+* Automation 
+
+<br />
+
+`How to comment in Python`
+
+Just like other programming languages, Python supports comments.
+
+Commenting is an integral part of every programming language. With comments, you get a better understanding of your own code, make it more readable, and can help team members understand how it works.
+
+Apart from making your code more readable, comments can also help while you're debugging – if you have two lines of code, you can comment out one to prevent it from running.
+
+Comments are ignored by compilers and interpreters, so they are ignored by the interpreter during the execution of the program.
+
+* Comments enhance the readability of the code.
+
+* Comment can be used to identify functionality or structure the code-base.
+
+* Comment can help understanding unusual or tricky scenarios handled by the code to prevent accidental removal or changes.
+
+* Comments can be used to prevent executing any specific part of your code, while making changes or testing.
+
+In Python, single line comments starts with hashtag symbol #
+
+```
+# this is a single line comment 
+```
+
+```
+""" 
+this is a multi-line comment with Docstring 
+
+(aka Python documentation strings) 
+
+"""
+``` 
+
+
+
+
+
+
 ## Developer commands
 
 *Python* 
@@ -13,7 +68,7 @@ py --version
 
 python -V
 
-python app.py
+python application-name.py # run application e.g: python app.py
 ```
 
 *Git* 
@@ -34,18 +89,6 @@ git rm -r --cached ./node_modules
 
 ## Keywords
 
-`Pyhton`
-
-Python is a high-level, interpreted, object-oriented programming language.. It is a generalist language, that is, it can be used to create a variety of programs. 
-
-Python is widely used in: 
-
-* Software Development
-* Web Development 
-* Data Science 
-* Machine Learning
-* Scientific Computing
-* Automation 
 
 `Jupyter`
 
@@ -108,6 +151,10 @@ Google Colab, or Colaboratory, is a free, browser-based environment for writing 
 * You can combine code, rich text, images, HTML, and LaTeX in your notebooks. 
 * You can access your Google Drive directly from your notebook. 
 
+
+
+
+
 ## References
 
 `W3 Schools`
@@ -125,3 +172,13 @@ Google Colab, or Colaboratory, is a free, browser-based environment for writing 
 `Jupyter`
 
 [Visual Studio Code | Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter#:~:text=Jupyter%20Extension%20for%20Visual%20Studio,used%20as%20a%20Jupyter%20kernel.)
+
+`FreeCodeCamp`
+
+[FreeCodeCampy | Python Multiline Comment](https://www.freecodecamp.org/news/python-multiline-comment-how-to-comment-out-multiple-lines-in-python/)
+
+`GeeksforGeeks`
+
+[GeeksforGeeks | Python Comments](https://www.geeksforgeeks.org/python-comments/)
+
+[GeeksforGeeks | Multiline Comments in Python ](https://www.geeksforgeeks.org/multiline-comments-in-python/)
