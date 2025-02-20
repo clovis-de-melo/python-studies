@@ -9,6 +9,8 @@ python --version
 
 py --version
 
+python -V
+
 python app.py
 ```
 
