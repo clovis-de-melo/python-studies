@@ -2,11 +2,13 @@
 
 Repository created in order to study and test Python programming language. 
 
+Feel free to fork this repository.
+
 ## Main notes
 
 `What is Python?`
 
-Created by Guido van Rossum, and released in 1991, Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
+Created by Guido van Rossum (Dutch mathematician and computer programmer), and released in 1991, Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
 
 Python is widely used in: 
 
@@ -158,6 +160,8 @@ Google Colab, or Colaboratory, is a free, browser-based environment for writing 
 ## References
 
 `W3 Schools`
+
+[W2 Schools | Python Tutorial](https://www.w3schools.com/python/default.asp)
 
 [W3 Schools | Python Operators](https://www.w3schools.com/python/python_operators.asp)
 
