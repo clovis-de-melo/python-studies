@@ -1,8 +1,8 @@
 # Python studies
 
-## Developer commands
+### Developer commands
 
-## Keywords
+### Keywords
 
 `Pyhton`
 
@@ -10,7 +10,9 @@
 
 `Anaconda`
 
-## References
+`Google Collab`
+
+### References
 
 `W3 Schools`
 
