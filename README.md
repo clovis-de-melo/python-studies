@@ -76,7 +76,7 @@ This is *not* a Jupyter kernel--you must have Python environment in which you've
 
 `Git`
 
-[StackOverflow |.gitignore not ignoring files](https://stackoverflow.com/questions/45400361/why-is-gitignore-not-ignoring-my-files)
+[StackOverflow | .gitignore not ignoring files](https://stackoverflow.com/questions/45400361/why-is-gitignore-not-ignoring-my-files)
 
 `Jupyter`
 
