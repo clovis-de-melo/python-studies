@@ -59,10 +59,46 @@ This is *not* a Jupyter kernel--you must have Python environment in which you've
 
 `Anaconda`
 
+Anaconda is an open-source distribution of Python that's used for data science, machine learning, and artificial intelligence. It includes a package manager, Conda, and a graphical user interface, Anaconda Navigator.
 
+*Packages*
 
+Includes pre-installed packages like NumPy, Pandas, and Scikit-learn, and thousands more available for installation 
+
+*Package management*
+
+Conda analyzes the environment before installing packages to avoid conflicts 
+
+*Environments* 
+
+Isolated workspaces that can be customized for specific projects 
+
+*Jupyter Notebooks*
+
+Works with this open-source web application for creating and sharing documents with equations, code, and visualizations 
 
 `Google Colab`
+
+Google Colab, or Colaboratory, is a free, browser-based environment for writing and running Python code. It's hosted on Google's cloud servers. 
+
+*Features* 
+
+* No setup: You don't need to configure anything to use Colab. 
+* Free access to GPUs and TPUs: You can use these powerful computing resources for free. 
+* Easy sharing: You can share your notebooks with others. 
+* Store in Google Drive: You can save your notebooks to your Google Drive account.
+
+*Use cases* 
+
+* Data science: Analyze and visualize data using Python libraries
+* Machine learning: Import image datasets, train image classifiers, and evaluate models
+* Education: Use Colab for educational purposes
+
+*How it works* 
+
+* You can write and execute Python code in a web browser. 
+* You can combine code, rich text, images, HTML, and LaTeX in your notebooks. 
+* You can access your Google Drive directly from your notebook. 
 
 ### References
 
