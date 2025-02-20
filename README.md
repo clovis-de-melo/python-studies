@@ -5,6 +5,8 @@
 *Python* 
 
 ```
+python --version
+
 python app.py
 ```
 
