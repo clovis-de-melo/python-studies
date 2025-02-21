@@ -172,11 +172,13 @@ Google Colab, or Colaboratory, is a free, browser-based environment for writing 
 * You can combine code, rich text, images, HTML, and LaTeX in your notebooks. 
 * You can access your Google Drive directly from your notebook. 
 
-`CRLF`
+`CR LF`
 
+CR LF stands for *Carriage return plus Line feed*, they are [control characters](https://en.wikipedia.org/wiki/Control_character) or [bytecode](https://en.wikipedia.org/wiki/Bytecode) that can be used to mark a line break in a text file.
 
+* CR = Carriage Return (\r, 0x0D in hexadecimal, 13 in decimal) — moves the cursor to the beginning of the line without advancing to the next line.
 
-
+* LF = Line Feed (\n, 0x0A in hexadecimal, 10 in decimal) — moves the cursor down to the next line without returning to the beginning of the line.
 
 ## References
 
@@ -207,3 +209,7 @@ Google Colab, or Colaboratory, is a free, browser-based environment for writing 
 [GeeksforGeeks | Python Comments](https://www.geeksforgeeks.org/python-comments/)
 
 [GeeksforGeeks | Multiline Comments in Python ](https://www.geeksforgeeks.org/multiline-comments-in-python/)
+
+`MDN Web Docs`
+
+[MDN Web Docs | CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF)
