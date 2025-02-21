@@ -176,3 +176,21 @@ print("Python Logical Operators")
 # or 
 
 # not
+
+
+# Python Operators Precedence Rule
+print("Python´s Operator Precedence Rule")
+
+# 1st (n + n) Parentheses
+# 2nd ** Exponents
+# 3rd * / // % Multiplication and Division
+# 4th + - Addition and Subtraction
+
+total_1 = 1 + 1 ** 5 + 5 # 7 
+print("total 1:", total_1) 
+
+total_2 = (1 + 1) * 5 # 10
+print("total 2:", total_2)
+
+total_3 = 1 + (20 + 50) # 71
+print("total_3", total_3)
