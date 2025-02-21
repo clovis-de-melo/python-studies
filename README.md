@@ -78,6 +78,15 @@ this is a multi-line comment with Docstring
 
 * Boolean 
 
+`Python Operators Precedence Rule`
+
+|Order|Rule Component|Operators| 
+|-|-|-|
+|1st|Parentheses|()| 
+|2nd|Exponents| ** |
+|3rd|Multiplication and Division| * / |
+|4th|Addition and Subtraction|+ -|
+
 ## Developer commands
 
 *Python* 
