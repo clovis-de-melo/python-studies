@@ -2,7 +2,7 @@
 
 Repository created in order to study and test Python programming language. 
 
-Feel free to fork this repository.
+Feel free to fork this repository. 
 
 ## Main notes
 
@@ -54,8 +54,9 @@ We can multiple hashtags (#) to write multiline comments in Python. Each and eve
 # Python program to demonstrate
 # multiline comments
 print("Thanks for reading this documentation!")
-````
+```
 
+[!NOTE]
 
 
 
@@ -68,15 +69,16 @@ this is a multi-line comment with Docstring
 """
 ``` 
 
-`Data types`
+`Built-in Data types`
 
-* Strings
+In programming, data type is an important concept.
 
-* Int
+Variables can store data of different types, and different types can do different things.
 
-* Float
+Python has the following data types built-in by default, in these categories:
 
-* Boolean 
+* Text Type: ==str==
+
 
 `Python Operators Precedence Rule`
 
@@ -86,6 +88,10 @@ this is a multi-line comment with Docstring
 |2nd|Exponents| ** |
 |3rd|Multiplication and Division| * / |
 |4th|Addition and Subtraction|+ -|
+
+`f Strings`
+
+
 
 ## Developer commands
 
