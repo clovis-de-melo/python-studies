@@ -19,8 +19,6 @@ Python is widely used in:
 * Scientific Computing
 * Automation 
 
-<br />
-
 ## Python Comments
 
 #### `How to comment in Python`
