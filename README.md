@@ -4,6 +4,10 @@ Repository created in order to study and test Python programming language.
 
 Feel free to fork this repository. 
 
+## Sections
+
+## [Python Comments](#python-comments)
+
 ## Main notes
 
 #### `What is Python?`
