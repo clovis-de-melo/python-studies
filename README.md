@@ -6,7 +6,7 @@ Feel free to fork this repository.
 
 ## Main notes
 
-`What is Python?`
+#### `What is Python?`
 
 Created by Guido van Rossum (Dutch mathematician and computer programmer), and released in 1991, Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
 
@@ -21,7 +21,9 @@ Python is widely used in:
 
 <br />
 
-`How to comment in Python`
+## Python Comments
+
+#### `How to comment in Python`
 
 Just like other programming languages, Python supports comments.
 
@@ -56,10 +58,6 @@ We can multiple hashtags (#) to write multiline comments in Python. Each and eve
 print("Thanks for reading this documentation!")
 ```
 
-[!NOTE]
-
-
-
 ```
 """ 
 this is a multi-line comment with Docstring 
@@ -69,7 +67,9 @@ this is a multi-line comment with Docstring
 """
 ``` 
 
-`Built-in Data types`
+## Python Data Types
+
+#### `Built-in Data types`
 
 In programming, data type is an important concept.
 
@@ -77,10 +77,81 @@ Variables can store data of different types, and different types can do differen
 
 Python has the following data types built-in by default, in these categories:
 
-* Text Type: ==str==
+* Text Type: *str*
+* Numeric Types: *int*, *float*, *complex*
+* Sequence Types: *list*, *tuple*, *range*
+* Mapping Type: *dict*
+* Set Types: *set*, *frozenset*
+* Boolean Type: *bool*
+* Binary Types: *bytes*, *bytearray*, *memoryview*
+* None Type: *NoneType*
 
+#### `Getting the Data Type`
 
-`Python Operators Precedence Rule`
+You can get the data type of any object by using the type() function. Example:
+
+Print the data type of the variable x
+
+```
+x = 5 
+print(type(x)) # <class 'int'>
+
+y = 5.5
+print(type(a)) # <class 'float'>
+
+z = "John"
+print(type(y)) # <class 'str'>
+
+a = True
+print(type(z)) # <class 'bool'>
+``` 
+
+#### `Setting the Data Type`
+
+In Python, the data type is set when you assign a value to a variable:
+
+|Example|Data Type|Print|
+|-------|---------|-----|
+|x = "Hello World|str|<class 'str'>|
+|x = 20|int|<class 'int'>|
+|x = 20.5|float|<class 'float'>|
+|x = 1j|complex|<class 'complex'>|
+|x = ["apple", "banana", "cherry"]|list|<class 'list'>|
+|x = ("apple", "banana", "cherry")|tuple|<class 'tuple'>|
+|x = range(6)|range|<class 'range'>|
+|x = {"name": "John", "age": 36}|dict|<class 'dict'>|
+|x = {"apple", "banana", "cherry"}|set|<class 'set'>|
+|x = frozenset({"apple", "banana", "cherry"})|frozent|<class 'frozenset'>
+|x = True|bool|<class 'bool'>|
+|x = b"Hello"|bytes|<class 'bytes'>|
+|x = bytearray(5)|bytearray|<class 'bytearray'>|
+|x = memoryview(bytes(5))|memoryview|<class 'memoryview'>
+|x = None|NoneType|<class 'NoneType'>|
+
+#### `Setting the Specific Data Type`
+
+If you want to specify the data type, you can use the following constructor functions:
+
+|Example|Data Type|Print|
+|-------|---------|-----|
+|x = str("Hello World")|str|<class 'str'>|
+|x = int(20)|int|<class 'int'>|
+|x = float(20.5)|float|<class 'float>|
+|x = complex(1j)|complex|<class 'complex'>
+|x = list(("apple", "banana", "cherry"))|list|<class 'list'>|
+|x = tuple(("apple", "banana", "cherry"))|tuple|<class 'tuple'>|
+|x = range(6)|range|<class 'range'>|
+|x = dict(name="John", age=36)|dict|<class 'dict'>|
+|x = set(("apple", "banana", "cherry"))|set|<class 'set'>|
+|x = frozenset(("apple", "banana", "cherry"))|frozenset|<class 'frozenset'>|
+|x = bool(5)|bool|<class 'bool'>|
+|x = bytes(5)|bytes|<class 'bytes'>|
+|x = bytearray(5)|bytearray|<class 'bytearray'>|
+|x = memoryview(bytes(5))|memomryview|<class 'memoryview'>|
+
+## Python Operators
+
+#### `Python Operators Precedence Rule`
 
 |Order|Rule Component|Operators| 
 |-|-|-|
@@ -88,10 +159,6 @@ Python has the following data types built-in by default, in these categories:
 |2nd|Exponents| ** |
 |3rd|Multiplication and Division| * / |
 |4th|Addition and Subtraction|+ -|
-
-`f Strings`
-
-
 
 ## Developer commands
 
@@ -202,6 +269,8 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 [W2 Schools | Python Tutorial](https://www.w3schools.com/python/default.asp)
 
 [W3 Schools | Python Operators](https://www.w3schools.com/python/python_operators.asp)
+
+[W3 Schools | Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
 
 `Python Org`
 
