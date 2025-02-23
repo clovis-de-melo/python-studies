@@ -1,6 +1,6 @@
 # Python studies
 
-Repository created in order to study and test Python programming language. 
+Repository created in order to study and practice Python programming language. 
 
 Feel free to fork this repository. 
 
