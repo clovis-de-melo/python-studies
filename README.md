@@ -149,6 +149,24 @@ If you want to specify the data type, you can use the following constructor func
 
 ## Python Operators
 
+Operators are used to perform operations on variables and values.
+
+In the example below, we use the + operator to add together two values:
+
+```
+print(10 + 5) # 15
+```
+
+Python divides the operators in the following groups: 
+
+* Arithmetic operators
+* Assignment operators
+* Comparison operators
+* Logical operators
+* Identity operators
+* Membership operators
+* Bitwise operators
+
 #### `Python Operators Precedence Rule`
 
 |Order|Rule Component|Operators| 
