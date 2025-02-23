@@ -6,7 +6,12 @@ Feel free to fork this repository.
 
 ## Sections
 
-## [Python Comments](#python-comments)
+* [Python Comments](#python-comments)
+* [Python Data Types](#python-data-types)
+* [Python Operators](#python-operators)
+* [Developer Commands](#developer-commands)
+* [Keywords](#keywords)
+* [References](#references)
 
 ## Main notes
 
