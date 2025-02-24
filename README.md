@@ -338,6 +338,8 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 
 `Git`
 
+[GitHub Gist | List of github markdown emoji markup ](https://gist.github.com/rxaviers/7360908)
+
 [StackOverflow | .gitignore not ignoring files](https://stackoverflow.com/questions/45400361/why-is-gitignore-not-ignoring-my-files)
 
 `Jupyter`
