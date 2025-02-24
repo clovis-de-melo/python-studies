@@ -9,7 +9,9 @@ Feel free to fork this repository.
 * [What is Python?](#what-is-python)
 * [Python Indentation](#python-indentation)
 * [Python Comments](#python-comments)
-* [Python Variables](#python-variables)
+* [Python Variables - Defition](#python-variables)
+* [Python Variables - Names](#python-variables---names)
+* [Python Variables - Assign Multiple Values](#python-variables---assign-multiple-values)
 * [Python Variables - Keywords](#python-variables---keywords)
 * [Python Data Types](#python-data-types)
 * [Python Operators](#python-operators)
@@ -66,7 +68,8 @@ if 5 > 2:
 
   # Five is greater than two!
 ```
-Python will give you an error if you skip the indentation:
+>[!WARNING]
+>Python will give you an error if you skip the indentation:
 
 Example (syntax error):
 
@@ -200,7 +203,7 @@ print(A) # Sally
 
 # A will not overwrite a
 ```
-#### `Variables Names`
+## Python Variables - Names
 
 A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
 
@@ -257,7 +260,7 @@ Each word is separated by an underscore character:
 ```python
 my_variable_name = "John"
 ```
-#### `Variables - Assign Multiple Values`
+## Python Variables - Assign Multiple Values
 
 * **Many Values to Multiple Variables**
 
@@ -274,9 +277,100 @@ print(z) # Cherry
 >[!NOTE]
 >Make sure the number of variables matches the number of values, or else you will get an error.
 
+#### `One Value to Multiple Variables`
 
+And you can assign the same value to **multiple variables** in one line:
 
+Example: 
 
+```python
+x = y = z = "Orange"
+print(x) # Orange
+print(y) # Orange
+print(z) # Orange
+```
+#### `Unpack a Collection`
+
+If you have a collection of values in a list, tuple etc. Python allows you to extract the values into variables. This is called **unpacking**.
+
+Example:
+
+Unpack a list
+
+```python
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x) # apple
+print(y) # banana
+print(z) # cherry
+```
+## Python Variables - Output Variables
+
+The Python **print( )** function is often used to output variables.
+
+Example
+
+```python
+x = "Python is awesome"
+print(x) # Python is awesome
+```
+In the print( ) function, you output multiple variables, separated by a comma:
+
+Example:
+
+```python
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z) # Python is awesome
+```
+You can also use the **+** operator to output multiple variables:
+
+Example:
+
+```python
+x = "Python " # note the space after 'Python '
+y = "is " # note the space after 'is ' 
+z = "awesome"
+print(x + y + z) # Python is awesome
+```
+>[!WARNING]
+>Notice the space character after "Python " and "is ", without them the result would be "Pythonisawesome".
+
+For numbers, the **+** character works as a mathematical operator:
+
+Example:
+
+```python
+x = 5
+y = 10
+print(x + y) # 15
+```
+>[!CAUTION]
+>In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error:
+
+```
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+
+Example:
+
+```python
+x = 5
+y = "John"
+print(x + y)
+
+# TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+The best way to output multiple variables in the print() function is to separate them with commas, which even support different data types:
+
+Example: 
+
+```python
+x = 5
+y = "John"
+print(x, y) # 5 John
+```
 
 ## Python Variables - Keywords
 
@@ -562,7 +656,9 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 
 `FreeCodeCamp`
 
-[FreeCodeCampy | Python Multiline Comment](https://www.freecodecamp.org/news/python-multiline-comment-how-to-comment-out-multiple-lines-in-python/)
+[FreeCodeCamp | Python Multiline Comment](https://www.freecodecamp.org/news/python-multiline-comment-how-to-comment-out-multiple-lines-in-python/)
+
+[FreeCodeCamp | How to Create Notice Blocks in Markdown](https://www.freecodecamp.org/news/how-to-create-notice-blocks-in-markdown/)
 
 `GeeksforGeeks`
 
