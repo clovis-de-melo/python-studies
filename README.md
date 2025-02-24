@@ -140,7 +140,7 @@ y = "John"
 print(x) # 5
 print(y) # John
 ```
-Variables do not need to be declared with any particular *type*, and can even change type after they have been set.
+Variables do not need to be declared with any particular **type**, and can even change type after they have been set.
 
 Example: 
 
@@ -160,7 +160,7 @@ z = float(3) # z will be 3.0
 ```
 #### `Get the Type`
 
-You can get the data type of a variable with the *type()* function.
+You can get the data type of a variable with the **type()** function.
 
 Example: 
 
@@ -172,7 +172,7 @@ print(type(y)) # <class 'str'>
 ```
 #### `Single or Double Quotes?`
 
-String variables can be declared either by using single *'string'* or double quotes *"string"*:
+String variables can be declared either by using single **'string'** or double quotes **"string"**:
 
 Example: 
 
@@ -198,6 +198,67 @@ print(A) # Sally
 
 # A will not overwrite a
 ```
+#### `Variables Names`
+
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
+
+* A variable name must start with a letter or the underscore character
+* A variable name cannot start with a number
+* A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+* Variable names are case-sensitive (age, Age and AGE are three different variables)
+* A variable name cannot be any of the [Python keywords](https://www.w3schools.com/python/python_ref_keywords.asp).
+
+Example:
+
+Legal variable names:
+
+```python
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+```
+Illegal variable names:
+
+```python
+2myvar = "John"
+my-var = "John"
+my var = "John"
+```
+
+#### ```Multi Words Variable Names```
+
+Variable names with more than one word can be difficult to read.
+
+There are several techniques you can use to make them more readable:
+
+* **Camel Case**
+
+Each word, except the first, starts with a capital letter:
+
+```python
+myVariableName = "John"
+```
+* **Pascal Case**
+
+Each word starts with a capital letter:
+
+```python
+MyVariableName = "John"
+```
+* **Snake Case**
+
+Each word is separated by an underscore character:
+
+```python
+my_variable_name = "John"
+```
+#### `Python Keywords`
+
+Python has a set of keywords that are reserved words that **cannot be used as variable names, function names, or any other identifiers**:
+
 
 
 
@@ -211,18 +272,18 @@ Variables can store data of different types, and different types can do differen
 
 Python has the following data types built-in by default, in these categories:
 
-* Text Type: *str*
-* Numeric Types: *int*, *float*, *complex*
-* Sequence Types: *list*, *tuple*, *range*
-* Mapping Type: *dict*
-* Set Types: *set*, *frozenset*
-* Boolean Type: *bool*
-* Binary Types: *bytes*, *bytearray*, *memoryview*
-* None Type: *NoneType*
+* Text Type: **str**
+* Numeric Types: **int**, **float**, **complex**
+* Sequence Types: **list**, **tuple**, **range**
+* Mapping Type: **dict**
+* Set Types: **set**, **frozenset**
+* Boolean Type: **bool**
+* Binary Types: **bytes**, **bytearray**, **memoryview**
+* None Type: **NoneType**
 
 #### `Getting the Data Type`
 
-You can get the data type of any object by using the type() function. Example:
+You can get the data type of any object by using the type( ) function. Example:
 
 Print the data type of the variable x
 
