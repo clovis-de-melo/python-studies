@@ -231,13 +231,13 @@ x = 5
 print(type(x)) # <class 'int'>
 
 y = 5.5
-print(type(a)) # <class 'float'>
+print(type(y)) # <class 'float'>
 
 z = "John"
-print(type(y)) # <class 'str'>
+print(type(z)) # <class 'str'>
 
 a = True
-print(type(z)) # <class 'bool'>
+print(type(a)) # <class 'bool'>
 ``` 
 
 #### `Setting the Data Type`
