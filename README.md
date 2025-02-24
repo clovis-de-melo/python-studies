@@ -9,6 +9,8 @@ Feel free to fork this repository.
 * [What is Python?](#what-is-python)
 * [Python Indentation](#python-indentation)
 * [Python Comments](#python-comments)
+* [Python Variables](#python-variables)
+* [Python Variables - Keywords](#python-variables---keywords)
 * [Python Data Types](#python-data-types)
 * [Python Operators](#python-operators)
 * [Developer Commands](#developer-commands)
@@ -255,7 +257,28 @@ Each word is separated by an underscore character:
 ```python
 my_variable_name = "John"
 ```
-#### `Python Keywords`
+#### `Variables - Assign Multiple Values`
+
+* **Many Values to Multiple Variables**
+
+Python allows you to assign values to multiple variables in one line:
+
+Example: 
+
+```python
+x, y, z = "Orange", "Banana", "Cherry"
+print(x) # Orange
+print(y) # Banana
+print(z) # Cherry
+```
+[!NOTE]
+Make sure the number of variables matches the number of values, or else you will get an error.
+
+
+
+
+
+## Python Variables - Keywords
 
 Python has a set of keywords that are **reserved words that cannot be used as variable names, function names, or any other identifiers**:
 
