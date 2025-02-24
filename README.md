@@ -6,6 +6,8 @@ Feel free to fork this repository.
 
 ## Sections
 
+* [What is Python?](#what-is-python)
+* [Python Indentation](#python-indentation)
 * [Python Comments](#python-comments)
 * [Python Data Types](#python-data-types)
 * [Python Operators](#python-operators)
@@ -13,9 +15,7 @@ Feel free to fork this repository.
 * [Keywords](#keywords)
 * [References](#references)
 
-## Main notes
-
-#### `What is Python?`
+## What is Python?
 
 Created by Guido van Rossum (Dutch mathematician and computer programmer), and released in 1991, Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
 
@@ -27,6 +27,39 @@ Python is widely used in:
 * Machine Learning
 * Scientific Computing
 * Automation 
+
+## Python Indentation
+
+Indentation refers to the spaces at the beginning of a code line.
+
+Where in other programming languages the indentation in code is for readability only, the *indentation in Python is very important*.
+
+Python uses indentation to indicate a block of code.
+
+Example (syntax ok):
+
+```
+if 5 > 2:
+  print("Five is greater than two!")
+
+  # Five is greater than two!
+```
+Python will give you an error if you skip the indentation:
+
+Example (syntax error):
+
+```
+if 5 > 2:
+print("Five is greater than two!")
+
+# follows below the print result
+
+File "demo_indentation_test.py", line 2
+    print("Five is greater than two!")
+        ^
+IndentationError: expected an indented block
+```
+
 
 ## Python Comments
 
@@ -291,7 +324,9 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 
 `W3 Schools`
 
-[W2 Schools | Python Tutorial](https://www.w3schools.com/python/default.asp)
+[W3 Schools | Python Tutorial](https://www.w3schools.com/python/default.asp)
+
+[W3 Schools | Python Syntax & Indentation](https://www.w3schools.com/python/python_syntax.asp)
 
 [W3 Schools | Python Operators](https://www.w3schools.com/python/python_operators.asp)
 
@@ -322,3 +357,5 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 `MDN Web Docs`
 
 [MDN Web Docs | CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF)
+
+<a href="#top"><h2>Back to top :arrow_up:</h2></a>
