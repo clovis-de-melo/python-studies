@@ -12,6 +12,7 @@ Feel free to fork this repository.
 * [Python Variables - Defition](#python-variables)
 * [Python Variables - Names](#python-variables---names)
 * [Python Variables - Assign Multiple Values](#python-variables---assign-multiple-values)
+* [Python Variables - Output Variables](#python-variables---output-variables)
 * [Python Variables - Keywords](#python-variables---keywords)
 * [Python Data Types](#python-data-types)
 * [Python Operators](#python-operators)
@@ -371,6 +372,9 @@ x = 5
 y = "John"
 print(x, y) # 5 John
 ```
+## Python Variables - Global Variables 
+
+**to study later**
 
 ## Python Variables - Keywords
 
