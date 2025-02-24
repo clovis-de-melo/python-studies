@@ -1,4 +1,4 @@
-# Python studies
+# Python studies <img align="left" alt="Python logo" title="Python" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;" />
 
 Repository created in order to study and practice Python programming language. 
 
