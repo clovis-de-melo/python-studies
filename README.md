@@ -58,7 +58,7 @@ Python uses indentation to indicate a block of code.
 
 Example (syntax ok):
 
-```
+```python
 if 5 > 2:
   print("Five is greater than two!")
 
@@ -68,7 +68,7 @@ Python will give you an error if you skip the indentation:
 
 Example (syntax error):
 
-```
+```python
 if 5 > 2:
 print("Five is greater than two!")
 
@@ -103,7 +103,7 @@ Comments are ignored by compilers and interpreters, so they are ignored by the i
 
 In Python, single line comments starts with hashtag symbol #
 
-```
+```python
 # this is a single line comment 
 ```
 Python does not provide the option for multiline comments. However, there are different ways through which we can write multiline comments.
@@ -112,13 +112,13 @@ Multiline comments using multiple hashtags (#)
 
 We can multiple hashtags (#) to write multiline comments in Python. Each and every line will be considered as a single-line comment.
 
-```
+```python
 # Python program to demonstrate
 # multiline comments
 print("Thanks for reading this documentation!")
 ```
 
-```
+```python
 """ 
 this is a multi-line comment with Docstring 
 
@@ -134,7 +134,7 @@ A variable is created the moment you first assign a value to it.
 
 Example:
 
-```
+```python
 x = 5
 y = "John"
 print(x) # 5
@@ -144,7 +144,7 @@ Variables do not need to be declared with any particular *type*, and can even ch
 
 Example: 
 
-```
+```python
 x = 4       # x is of type int
 x = "Sally" # x is now of type str
 print(x)    # Sally
@@ -153,7 +153,7 @@ print(x)    # Sally
 
 If you want to specify the data type of a variable, this can be done with casting.
 
-```
+```python
 x = str(3) # x will be '3'
 y = int(3) # y will be 3
 z = float(3) # z will be 3.0
@@ -164,7 +164,7 @@ You can get the data type of a variable with the *type()* function.
 
 Example: 
 
-```
+```python
 x = 5
 y = "John"
 print(type(x)) # <class 'int'>
@@ -176,7 +176,7 @@ String variables can be declared either by using single *'string'* or double quo
 
 Example: 
 
-```
+```python
 x = "John"
 # is the same as
 x = 'John'
@@ -189,11 +189,14 @@ Example:
 
 This will create two variables:
 
-```
-a = 5 # 5
-A = "Sally" # Sally
+```python
+a = 5 
+A = "Sally" 
 
-#A will not overwrite a
+print(a) # 5
+print(A) # Sally
+
+# A will not overwrite a
 ```
 
 
@@ -223,7 +226,7 @@ You can get the data type of any object by using the type() function. Example:
 
 Print the data type of the variable x
 
-```
+```python
 x = 5 
 print(type(x)) # <class 'int'>
 
@@ -286,7 +289,7 @@ Operators are used to perform operations on variables and values.
 
 In the example below, we use the + operator to add together two values:
 
-```
+```python
 print(10 + 5) # 15
 ```
 
@@ -313,7 +316,7 @@ Python divides the operators in the following groups:
 
 *Python* 
 
-```
+```powershell
 python --version
 
 py --version
@@ -325,7 +328,7 @@ python application-name.py # run application e.g: python app.py
 
 *Git* 
 
-```
+```powershell
 git rm -r --cached .
 git add . 
 git commit -m "Untrack files in .gitignore" 
@@ -335,7 +338,7 @@ You can use the following command if you want to ignore an specific file.
 
 E.g: *node_modules*
 
-```
+```powershell
 git rm -r --cached ./node_modules
 ```
 
