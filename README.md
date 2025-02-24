@@ -271,8 +271,8 @@ print(x) # Orange
 print(y) # Banana
 print(z) # Cherry
 ```
-[!NOTE]
-Make sure the number of variables matches the number of values, or else you will get an error.
+>[!NOTE]
+>Make sure the number of variables matches the number of values, or else you will get an error.
 
 
 
