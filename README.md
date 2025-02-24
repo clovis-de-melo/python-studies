@@ -28,6 +28,26 @@ Python is widely used in:
 * Scientific Computing
 * Automation 
 
+What can Python do?
+
+* Python can be used on a server to create web applications.
+* Python can be used alongside software to create workflows.
+* Python can connect to database systems. It can also read and modify files.
+* Python can be used to handle big data and perform complex mathematics.
+* Python can be used for rapid prototyping, or for production-ready software development.
+
+Why Python?
+
+* Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+* Python has a simple syntax similar to the English language.
+* Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+* Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+* Python can be treated in a procedural way, an object-oriented way or a functional way.
+
+Good to know
+
+The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.
+
 ## Python Indentation
 
 Indentation refers to the spaces at the beginning of a code line.
@@ -106,6 +126,77 @@ this is a multi-line comment with Docstring
 
 """
 ``` 
+## Python Variables
+
+Variables are containers for storing data values.
+
+A variable is created the moment you first assign a value to it.
+
+Example:
+
+```
+x = 5
+y = "John"
+print(x) # 5
+print(y) # John
+```
+Variables do not need to be declared with any particular *type*, and can even change type after they have been set.
+
+Example: 
+
+```
+x = 4       # x is of type int
+x = "Sally" # x is now of type str
+print(x)    # Sally
+```
+#### `Casting`
+
+If you want to specify the data type of a variable, this can be done with casting.
+
+```
+x = str(3) # x will be '3'
+y = int(3) # y will be 3
+z = float(3) # z will be 3.0
+```
+#### `Get the Type`
+
+You can get the data type of a variable with the *type()* function.
+
+Example: 
+
+```
+x = 5
+y = "John"
+print(type(x)) # <class 'int'>
+print(type(y)) # <class 'str'>
+```
+#### `Single or Double Quotes?`
+
+String variables can be declared either by using single *'string'* or double quotes *"string"*:
+
+Example: 
+
+```
+x = "John"
+# is the same as
+x = 'John'
+``` 
+#### `Case-Sensitive`
+
+Variable names are case-sensitive.
+
+Example:
+
+This will create two variables:
+
+```
+a = 5 # 5
+A = "Sally" # Sally
+
+#A will not overwrite a
+```
+
+
 
 ## Python Data Types
 
@@ -327,6 +418,10 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 [W3 Schools | Python Tutorial](https://www.w3schools.com/python/default.asp)
 
 [W3 Schools | Python Syntax & Indentation](https://www.w3schools.com/python/python_syntax.asp)
+
+[W3 Schools | Python Comments](https://www.w3schools.com/python/python_comments.asp)
+
+[W3 Schools | Python Variables](https://www.w3schools.com/python/python_variables.asp)
 
 [W3 Schools | Python Operators](https://www.w3schools.com/python/python_operators.asp)
 
