@@ -360,4 +360,6 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 
 [MDN Web Docs | CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF)
 
+<hr />
+
 <a href="#top">Back to top :arrow_up:</a>
