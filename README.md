@@ -17,6 +17,7 @@ Feel free to fork this repository.
 * [Python Data Types](#python-data-types)
 * [Python Operators](#python-operators)
 * [Python Operators - Arithmetic](#python-operators---arithmetic)
+* [Python Operators - Assignment](#python-operators---assignment)
 * [Developer Commands](#developer-commands)
 * [Keywords](#keywords)
 * [References](#references)
@@ -555,6 +556,27 @@ Arithmetic operators are used with numeric values to perform common mathematical
 |%|Modulus|x % y|
 |**|Exponentiation|x ** y|
 |//|Floor division|x // y|
+
+## Python Operators - Assignment
+
+Assignment operators are used to assign values to variables.
+
+|Operator|Example|Same As|
+|--------|-------|-------|
+|=|x = 5|x = 5|x = 5|
+|+=|x += 3|x = x + 3|
+|-=|x -= 3|x = x + 3|
+|*=|x *= 3|x = x * 3|
+|/=|x /= 3|x = x / 3|
+|%=|x %= 3|x = x % 3|
+|//=|x //= 3|x = // 3|
+|**=|x **= 3|x = x ** 3|
+|&=|x &= 3|x = x & 3|
+|&#124;=|x &#124;= 3|x = x &#124; 3|
+|^=|X ^= 3|x = x ^ 3|
+|>>=|x >>= 3|x = x >> 3|
+|<<=|x <<= 3|x = x << 3|
+|:=|print(x := 3)|x = 3 print(x)|
 
 ## Developer commands
 
