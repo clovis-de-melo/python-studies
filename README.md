@@ -20,6 +20,7 @@ Feel free to fork this repository.
 * [Python Operators - Assignment](#python-operators---assignment)
 * [Python Operators - Comparison](#python-operators---comparison)
 * [Python Operators - Logical](#python-operators---logical)
+* [Python Operators - Identity](#python-operators---identity)
 * [Developer Commands](#developer-commands)
 * [Keywords](#keywords)
 * [References](#references)
