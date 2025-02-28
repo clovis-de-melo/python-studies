@@ -18,6 +18,8 @@ Feel free to fork this repository.
 * [Python Operators](#python-operators)
 * [Python Operators - Arithmetic](#python-operators---arithmetic)
 * [Python Operators - Assignment](#python-operators---assignment)
+* [Python Operators - Comparison](#python-operators---comparison)
+* [Python Operators - Logical](#python-operators---logical)
 * [Developer Commands](#developer-commands)
 * [Keywords](#keywords)
 * [References](#references)
@@ -590,6 +592,16 @@ Comparison operators are used to compare two values.
 |<|Less than|x < y|
 |>=|Greater than or equal to|x >= y|
 |<=|Less than or equal to|x <= y|
+
+## Python Operators - Logical 
+
+Logical operators are used to combine conditional statements.
+
+|Operator|Description|Example|
+|--------|-----------|-------|
+|and|Returns **True** if both statements are true|x < 5 **and** x < 10|
+|or|Returns **True** if one of the statements is true|x < 5 **or** x < 4|
+|not|Reverse the result, returns **False** if the results is **true**|not(x < 5 **and** x < 10) 
 
 ## Developer commands
 
