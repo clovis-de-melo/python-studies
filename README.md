@@ -536,15 +536,6 @@ Python divides the operators in the following groups:
 * Membership operators
 * Bitwise operators
 
-#### `Python Operators Precedence Rule`
-
-|Order|Rule Component|Operators| 
-|-|-|-|
-|1st|Parentheses|()| 
-|2nd|Exponents| ** |
-|3rd|Multiplication and Division| * / |
-|4th|Addition and Subtraction|+ -|
-
 ## Python Operators - Arithmetic
 
 Arithmetic operators are used with numeric values to perform common mathematical operations.
