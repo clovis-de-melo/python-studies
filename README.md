@@ -541,6 +541,20 @@ Python divides the operators in the following groups:
 |3rd|Multiplication and Division| * / |
 |4th|Addition and Subtraction|+ -|
 
+## Python Operators - Arithmetic
+
+Arithmetic operators are used with numeric values to perform common mathematical operations.
+
+|Operator|Name|Example|
+|--------|----|-------|
+|+|Addition|x + y|
+|-|Subtraction|x - y|
+|*|Multiplication|x * y|
+|/|Division|x / y|
+|%|Modulus|x % y|
+|**|Exponentiation|x ** y|
+|//|Floor division|x // y|
+
 ## Developer commands
 
 *Python* 
