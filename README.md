@@ -519,6 +519,9 @@ If you want to specify the data type, you can use the following constructor func
 
 ## Python Operators
 
+<details>
+<summary>Python Operators details</summary>
+
 Operators are used to perform operations on variables and values.
 
 In the example below, we use the + operator to add together two values:
@@ -643,6 +646,8 @@ print(x != y)
 
 # to demonstrate the difference betweeen "is not" and "!=": this comparison returns False because x is equal to y
 ```
+</details>
+
 
 ## Developer commands
 
