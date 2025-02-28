@@ -27,6 +27,9 @@ Feel free to fork this repository.
 
 ## What is Python?
 
+<details>
+<summary>See What is Python details</summary>
+
 Created by Guido van Rossum (Dutch mathematician and computer programmer), and released in 1991, Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. 
 
 Python is widely used in: 
@@ -58,7 +61,12 @@ Good to know
 
 The most recent major version of Python is Python 3, which we shall be using in this tutorial. However, Python 2, although not being updated with anything other than security updates, is still quite popular.
 
+</details>
+
 ## Python Indentation
+
+<details>
+<summary>See Python Identation details</summary>
 
 Indentation refers to the spaces at the beginning of a code line.
 
@@ -90,9 +98,12 @@ File "demo_indentation_test.py", line 2
         ^
 IndentationError: expected an indented block
 ```
-
+</details>
 
 ## Python Comments
+
+<details>
+<summary>See Python Comments details</summary>
 
 #### `How to comment in Python`
 
@@ -137,7 +148,12 @@ this is a multi-line comment with Docstring
 
 """
 ``` 
+</details>
+
 ## Python Variables
+
+<details>
+<summary>Python Variables details</summary>
 
 Variables are containers for storing data values.
 
@@ -435,7 +451,12 @@ Python has a set of keywords that are **reserved words that cannot be used as va
 |with|Used to simplify exception handling|
 |[yield](https://www.w3schools.com/python/ref_keyword_yield.asp)|To return a list of values from a generator|
 
+</details>
+
 ## Python Data Types
+
+<details>
+<summary>See Python Data Types details</summary>
 
 #### `Built-in Data types`
 
@@ -517,10 +538,12 @@ If you want to specify the data type, you can use the following constructor func
 |x = bytearray(5)|bytearray|<class 'bytearray'>|
 |x = memoryview(bytes(5))|memomryview|<class 'memoryview'>|
 
+</details>
+
 ## Python Operators
 
 <details>
-<summary>Python Operators details</summary>
+<summary>See Python Operators details</summary>
 
 Operators are used to perform operations on variables and values.
 
@@ -651,6 +674,9 @@ print(x != y)
 
 ## Developer commands
 
+<details>
+<summary>See Developer commands details</summary>
+
 *Python* 
 
 ```powershell
@@ -678,9 +704,12 @@ E.g: *node_modules*
 ```powershell
 git rm -r --cached ./node_modules
 ```
+</details>
 
 ## Keywords
 
+<details>
+<summary>See Keywords details</summary>
 
 `Jupyter`
 
@@ -751,7 +780,12 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 
 * LF = Line Feed (\n, 0x0A in hexadecimal, 10 in decimal) — moves the cursor down to the next line without returning to the beginning of the line.
 
+</details>
+
 ## References
+
+<details>
+<summary>See References details</summary>
 
 `W3 Schools`
 
@@ -798,5 +832,9 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 [MDN Web Docs | CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF)
 
 <hr />
+
+</details>
+
+<br />
 
 <a href="#top">Back to top :arrow_up:</a>
