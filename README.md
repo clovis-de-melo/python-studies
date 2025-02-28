@@ -16,6 +16,7 @@ Feel free to fork this repository.
 * [Python Variables - Keywords](#python-variables---keywords)
 * [Python Data Types](#python-data-types)
 * [Python Operators](#python-operators)
+* [Python Operators - Arithmetic](#python-operators---arithmetic)
 * [Developer Commands](#developer-commands)
 * [Keywords](#keywords)
 * [References](#references)
