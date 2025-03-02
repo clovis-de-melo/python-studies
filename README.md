@@ -9,7 +9,7 @@ Feel free to fork this repository.
 * [What is Python?](#what-is-python)
 * [Python Indentation](#python-indentation)
 * [Python Comments](#python-comments)
-* [Python Variables - Defition](#python-variables)
+* [Python Variables - Defition](#python-variables---definition)
 * [Python Variables - Names](#python-variables---names)
 * [Python Variables - Assign Multiple Values](#python-variables---assign-multiple-values)
 * [Python Variables - Output Variables](#python-variables---output-variables)
@@ -157,12 +157,14 @@ this is a multi-line comment with Docstring
 
 <br />
 
-* [Python Variables - Definition](#python-variables)
+* [Python Variables - Definition](#python-variables---definition)
 * [Python Variables - Names](#python-variables---names)
 * [Python Variables - Assign Multiple Values](#python-variables---assign-multiple-values)
 * [Python Variables - Output Variables](#python-variables---output-variables)
 * [Python Variables - Global Variables](#python-variables---global-variables)
 * [Python Variables - Keywords](#python-variables---keywords)
+
+## Python Variables - Definition
 
 Variables are containers for storing data values.
 
