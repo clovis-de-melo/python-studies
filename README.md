@@ -155,6 +155,15 @@ this is a multi-line comment with Docstring
 <details>
 <summary>Python Variables details</summary>
 
+<br />
+
+* [Python Variables - Definition](#python-variables)
+* [Python Variables - Names](#python-variables---names)
+* [Python Variables - Assign Multiple Values](#python-variables---assign-multiple-values)
+* [Python Variables - Output Variables](#python-variables---output-variables)
+* [Python Variables - Global Variables](#python-variables---global-variables)
+* [Python Variables - Keywords](#python-variables---keywords)
+
 Variables are containers for storing data values.
 
 A variable is created the moment you first assign a value to it.
@@ -225,7 +234,7 @@ print(A) # Sally
 
 # A will not overwrite a
 ```
-## Python Variables - Names
+### Python Variables - Names
 
 A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
 
