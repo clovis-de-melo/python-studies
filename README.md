@@ -13,6 +13,7 @@ Feel free to fork this repository.
 * [Python Variables - Names](#python-variables---names)
 * [Python Variables - Assign Multiple Values](#python-variables---assign-multiple-values)
 * [Python Variables - Output Variables](#python-variables---output-variables)
+* [Python Variables - Global Variables](#python-variables---global-variables)
 * [Python Variables - Keywords](#python-variables---keywords)
 * [Python Data Types](#python-data-types)
 * [Python Operators](#python-operators)
