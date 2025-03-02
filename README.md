@@ -19,7 +19,7 @@ Feel free to fork this repository.
 * [Python Data Types - Built-in Data types](#python-data-types---built-in-data-types)
 * [Python Data Types - Getting the Data Type](#python-data-types---getting-the-data-type)
 * [Python Data Types - Setting the Data Type](#python-data-types---setting-the-data-type)
-* [Python Data Type - Setting the Specific Data Type](#python-data-type---setting-the-specific-data-type)
+* [Python Data Types - Setting the Specific Data Type](#python-data-type---setting-the-specific-data-type)
 * [Python Operators](#python-operators)
 * [Python Operators - Arithmetic](#python-operators---arithmetic)
 * [Python Operators - Assignment](#python-operators---assignment)
