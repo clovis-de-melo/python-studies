@@ -15,7 +15,11 @@ Feel free to fork this repository.
 * [Python Variables - Output Variables](#python-variables---output-variables)
 * [Python Variables - Global Variables](#python-variables---global-variables)
 * [Python Variables - Keywords](#python-variables---keywords)
-* [Python Data Types](#python-data-types)
+* [Python Data Types - Definition](#python-data-types---definition)
+* [Python Data Types - Built-in Data types](#python-data-types---built-in-data-types)
+* [Python Data Types - Getting the Data Type](#python-data-types---getting-the-data-type)
+* [Python Data Types - Setting the Data Type](#python-data-types---setting-the-data-type)
+* [Python Data Type - Setting the Specific Data Type](#python-data-type---setting-the-specific-data-type)
 * [Python Operators](#python-operators)
 * [Python Operators - Arithmetic](#python-operators---arithmetic)
 * [Python Operators - Assignment](#python-operators---assignment)
@@ -237,7 +241,7 @@ print(A) # Sally
 
 # A will not overwrite a
 ```
-### Python Variables - Names
+## Python Variables - Names
 
 A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
 
@@ -296,7 +300,7 @@ my_variable_name = "John"
 ```
 ## Python Variables - Assign Multiple Values
 
-* **Many Values to Multiple Variables**
+#### `Many Values to Multiple Variables`
 
 Python allows you to assign values to multiple variables in one line:
 
@@ -470,7 +474,19 @@ Python has a set of keywords that are **reserved words that cannot be used as va
 <details>
 <summary>See Python Data Types details</summary>
 
-#### `Built-in Data types`
+<br />
+
+* [Python Data Types - Definition](#python-data-types---definition)
+* [Python Data Types - Built-in Data types](#python-data-types---built-in-data-types)
+* [Python Data Types - Getting the Data Type](#python-data-types---getting-the-data-type)
+* [Python Data Types - Setting the Data Type](#python-data-types---setting-the-data-type)
+* [Python Data Type - Setting the Specific Data Type](#python-data-type---setting-the-specific-data-type)
+
+## Python Data Types - Definition
+
+Python Data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, Python data types are classes and variables are instances (objects) of these classes.
+
+## Python Data Types - Built-in Data types
 
 In programming, data type is an important concept.
 
@@ -487,7 +503,7 @@ Python has the following data types built-in by default, in these categories:
 * Binary Types: **bytes**, **bytearray**, **memoryview**
 * None Type: **NoneType**
 
-#### `Getting the Data Type`
+## Python Data Types - Getting the Data Type
 
 You can get the data type of any object by using the type( ) function. Example:
 
@@ -507,7 +523,7 @@ a = True
 print(type(a)) # <class 'bool'>
 ``` 
 
-#### `Setting the Data Type`
+## Python Data Types - Setting the Data Type
 
 In Python, the data type is set when you assign a value to a variable:
 
@@ -529,7 +545,7 @@ In Python, the data type is set when you assign a value to a variable:
 |x = memoryview(bytes(5))|memoryview|<class 'memoryview'>
 |x = None|NoneType|<class 'NoneType'>|
 
-#### `Setting the Specific Data Type`
+## Python Data Type - Setting the Specific Data Type
 
 If you want to specify the data type, you can use the following constructor functions:
 
