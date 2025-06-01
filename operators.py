@@ -179,7 +179,7 @@ print("Python Logical Operators")
 
 
 # Python Operators Precedence Rule
-print("Python´s Operator Precedence Rule")
+print("Python's Operator Precedence Rule")
 
 # 1st (n + n) Parentheses
 # 2nd ** Exponents
