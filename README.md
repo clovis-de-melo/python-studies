@@ -155,6 +155,19 @@ this is a multi-line comment with Docstring
 ``` 
 </details>
 
+## Python Terminal (Command Lines)
+
+<details>
+<summary>See Python Terminal (Command Lines) details</summary>
+<br>
+Pip
+<br>
+```python 
+pip install requests
+```
+
+</details>
+
 ## Python Variables
 
 <details>
