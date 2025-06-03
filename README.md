@@ -721,6 +721,14 @@ https://www.w3schools.com/python/python_string_formatting.asp
 
 https://realpython.com/python-f-strings/ 
 
+<!-- taken from google. add more examples below -->
+
+* Expressions:
+F-strings can contain any valid Python expressions, including: Variables, Arithmetic operations, Function calls, and Object attributes.
+
+* Formatting:
+Format specifiers can be used within the curly braces to control how the values are displayed.
+
 
 </details>
 
