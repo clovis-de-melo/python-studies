@@ -712,6 +712,20 @@ print(x != y)
 ```
 </details>
 
+## Python String Formatting
+
+<details>
+<summary>See Python String Formatting details</summary>
+
+https://www.w3schools.com/python/python_string_formatting.asp
+
+https://realpython.com/python-f-strings/ 
+
+
+</details>
+
+
+
 
 ## Developer commands
 
