@@ -726,8 +726,28 @@ https://realpython.com/python-f-strings/
 * Expressions:
 F-strings can contain any valid Python expressions, including: Variables, Arithmetic operations, Function calls, and Object attributes.
 
+ ```python
+ x = 5
+ y = 10
+ print(f"The sun of {x} and {y} is {x + y}") # Output: The sum of 5 and 10 is 15
+ ```
+
 * Formatting:
 Format specifiers can be used within the curly braces to control how the values are displayed.
+
+```python
+price = 123.4567
+print(f"The price is: {price:.2f}") # Output: The price is 123.46
+```
+
+* Function Calls:
+
+```python
+def greet(name):
+  return f"Hello, {name}!"
+
+print(greet("Bob")) # Output: Hello, Bob!
+```
 
 
 </details>
