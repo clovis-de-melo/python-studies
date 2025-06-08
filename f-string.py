@@ -14,6 +14,7 @@ print(f"My name is {name} and I am {age} years old")
 price = 50
 quantity = 3
 print(f"Total cost: ${price * quantity}")
+#print("the total is" price)
 # print("total cost is {price * quantity}")
 # output: Total cost: $150 
 
