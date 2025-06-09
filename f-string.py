@@ -34,3 +34,4 @@ print(f"Total cost: ${price * quantity}")
 
 # https://pythonacademy.com.br/blog/f-strings-no-python
 # https://www.w3schools.com/python/python_string_formatting.asp
+# https://realpython.com/python-f-strings/
