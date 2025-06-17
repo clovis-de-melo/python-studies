@@ -24,7 +24,7 @@ Greater than or equal to: a >= b
 a = 33
 b = 200
 if b > a:
-    print("b is greater than a")
+    print("b is greater than a") # print: b is greater than a
 
 # elif
 # The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
@@ -34,4 +34,4 @@ d = 33
 if d > c:
     print("d is greater than c")
 elif c == d:
-    print("c and d are equal")    
+    print("c and d are equal") # print: c and are equal 
