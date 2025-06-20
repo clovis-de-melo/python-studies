@@ -35,3 +35,14 @@ if d > c:
     print("d is greater than c")
 elif c == d:
     print("c and d are equal") # print: c and are equal 
+
+# else
+
+e = 10
+f = 8
+if f > e:
+    print("f is greater than e")
+elif f == e:
+    print("f is equal ot e")
+else:
+    print("e is greater than f")
