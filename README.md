@@ -870,8 +870,173 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 
 <details>
 <summary>See Python API details</summary>
+Python API & JSON Basics — Beginner to Developer Guide
+===================================================
 
+This guide explains the fundamental concepts of working with APIs and JSON data in Python, including real code examples using the `requests` module.
 
+---------------------------------------------------
+1. What is an API
+---------------------------------------------------
+An API (Application Programming Interface) allows different programs or systems to communicate with each other.
+In web development, APIs commonly use HTTP requests to send and receive data, typically in JSON format.
+
+---------------------------------------------------
+2. What is a REST API
+---------------------------------------------------
+A REST API (Representational State Transfer) follows principles like:
+- Each resource has a unique URL.
+- Uses HTTP methods (GET, POST, PUT, DELETE, etc.).
+- Stateless (each request is independent).
+- Returns structured JSON data.
+
+Example:
+GET https://api.example.com/users/1
+
+---------------------------------------------------
+3. HTTP Methods
+---------------------------------------------------
+GET     - Retrieve data
+POST    - Create new data
+PUT     - Replace existing data
+PATCH   - Partially update data
+DELETE  - Remove data
+HEAD    - Get headers only
+OPTIONS - List supported methods
+
+---------------------------------------------------
+4. Using the requests Library
+---------------------------------------------------
+pip install requests
+
+import requests
+url = "https://dog.ceo/api/breeds/list/all"
+response = requests.get(url)
+
+if response.status_code == 200:
+    data = response.json()
+    print("API is working!")
+    print(data)
+else:
+    print(f"Request failed: {response.status_code}")
+
+---------------------------------------------------
+5. The response Object
+---------------------------------------------------
+response.status_code  - HTTP status (200, 404, etc.)
+response.ok           - True if status < 400
+response.json()       - Parse JSON body
+response.text         - Raw text
+response.headers      - HTTP headers
+response.url          - Final URL after redirects
+response.elapsed      - Time request took
+
+---------------------------------------------------
+6. Status Codes
+---------------------------------------------------
+200 - OK
+201 - Created
+204 - No Content
+400 - Bad Request
+401 - Unauthorized
+404 - Not Found
+500 - Internal Server Error
+
+---------------------------------------------------
+7. Dog API Example
+---------------------------------------------------
+import requests, json
+
+url = "https://dog.ceo/api/breeds/list/all"
+response = requests.get(url)
+
+```python 
+if response.status_code == 200:
+    print("API is working")
+    data = response.json()
+    print(json.dumps(data, indent=4))
+else:
+    print(f"API request failed: {response.status_code}")
+```
+---------------------------------------------------
+8. Working with JSON Data
+---------------------------------------------------
+data = response.json()                    # JSON → Python
+print(json.dumps(data, indent=4))         # Python → JSON string
+
+Loop through data:
+for breed in data["message"]:
+    print(breed)
+
+---------------------------------------------------
+9. Saving and Reading JSON Files
+---------------------------------------------------
+with open("breeds.json", "w") as file:
+    json.dump(data, file, indent=4)
+
+with open("breeds.json") as file:
+    saved_data = json.load(file)
+print(saved_data)
+
+---------------------------------------------------
+10. When You Need an API Key
+---------------------------------------------------
+Some APIs require authentication with an API key.
+
+Example:
+headers = {"Authorization": "Bearer YOUR_API_KEY"}
+response = requests.get("https://api.example.com/data", headers=headers)
+
+Dog API does NOT need an API key.
+
+---------------------------------------------------
+11. Common Mistakes and Fixes
+---------------------------------------------------
+Forgot parentheses: response.json → response.json()
+Used json.dumps() without import json → add import json
+Used response.options() → use requests.options(url)
+Used response.json(), indent=4 → use json.dumps(response.json(), indent=4)
+
+---------------------------------------------------
+12. Summary Reference
+---------------------------------------------------
+requests.get(url)                 - GET request
+requests.post(url, json=data)     - POST request
+response.json()                   - Parse JSON
+json.dumps(data, indent=4)        - Pretty print JSON
+json.dump(data, file, indent=4)   - Save to file
+response.ok                       - Check if success
+
+---------------------------------------------------
+Complete Example Script
+---------------------------------------------------
+import requests, json
+
+url = "https://dog.ceo/api/breeds/list/all"
+response = requests.get(url)
+
+if response.status_code == 200:
+    print("API is working ✅")
+    data = response.json()
+    print(json.dumps(data, indent=4))
+
+    with open("dog_breeds.json", "w") as file:
+        json.dump(data, file, indent=4)
+        print("Data saved to dog_breeds.json 💾")
+
+else:
+    print(f"API request failed ❌: {response.status_code}")
+
+---------------------------------------------------
+Key Takeaways
+---------------------------------------------------
+- requests → send HTTP requests
+- response → object with API data
+- response.json() → parse JSON
+- json.dumps() → pretty print
+- json.dump() → save to file
+- API key → required for private APIs
+- Dog API → public, no key needed
 </details>
 
 ## References
