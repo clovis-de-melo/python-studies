@@ -21,4 +21,5 @@ print(data) """
 import requests
 response = requests.get("https://dog.ceo/api/breeds/list/all")
 data = response.json()
+print(response.status_code)
 print(data)
