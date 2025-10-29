@@ -27,6 +27,7 @@ Feel free to fork this repository.
 * [Python Operators - Logical](#python-operators---logical)
 * [Python Operators - Identity](#python-operators---identity)
 * [Developer Commands](#developer-commands)
+* [Python API](#python-api)
 * [Keywords](#keywords)
 * [References](#references)
 
@@ -862,6 +863,14 @@ CR LF stands for *Carriage return plus Line feed*, they are [control characters]
 * CR = Carriage Return (\r, 0x0D in hexadecimal, 13 in decimal) — moves the cursor to the beginning of the line without advancing to the next line.
 
 * LF = Line Feed (\n, 0x0A in hexadecimal, 10 in decimal) — moves the cursor down to the next line without returning to the beginning of the line.
+
+</details>
+
+## Python API 
+
+<details>
+<summary>See Python API details</summary>
+
 
 </details>
 
