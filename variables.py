@@ -92,3 +92,37 @@ if user_age >= 10:
 else:
     print("You're a minor.")
 
+
+# Currency Converter: Dollar to Real 
+
+""" 
+Step1: ask for the amount in dollars
+Step2: define the exchange rate (you can change this value)
+Step3: convert the value (define brazilian real)
+Step4: print the result 
+"""
+
+dollar_amount = float(input("Enter the amount in US dollars (USD): "))
+
+exchange_rate = 5.38
+
+real_amount = dollar_amount * exchange_rate 
+
+print(f"R${dollar_amount:.2f} USD is equivalent to ${real_amount:.2f} BRL")
+
+# Details 
+
+""" 
+float() → converts input to a decimal number.
+
+Mathematical operations (*) for conversions.
+
+Formatting numbers with two decimal places using :.2f.
+
+String interpolation using f"...". 
+"""
+
+""" 
+int integer(inteiro) 10, -3, 2025 números sem parte decimal
+float floating point (ponto flutuante) 10.5, -3.14, 0.001 números com parte decimal 
+"""
