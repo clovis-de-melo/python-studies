@@ -64,3 +64,31 @@ A = "Sally"
 
 print(a) # a
 print(A) # Sally
+
+# Age Calculator 
+
+""" 
+Step1: Ask birthday year
+Step2: Define current year
+Step3: Calculate user's age
+Step4: Print user's age 
+"""
+
+birthday_year = int(input("What's your birthday year? "))
+
+current_year = 2025
+
+user_age = current_year - birthday_year
+
+print(f"You are approximately {user_age} years old.")
+
+
+# Age Conditional 
+
+# Add a conditional statement which will confirm if user is underage or not
+
+if user_age >= 10:
+    print("You're an adult")
+else:
+    print("You're a minor.")
+
