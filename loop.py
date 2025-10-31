@@ -39,6 +39,13 @@ for i in range(5):
 
 fruits = ["apple", "banana", "orange", "grape", "mango"]
 
+# How I'd print without using the loop feature 
+
+print(f"I like{fruits[0]}")
+print(f"I like {fruits[1]}")
+print(f"I like {fruits[3]}")
+print(f"I like {fruits[4]}")
+
 # Loop through the list 
 
 for fruit in fruits:
@@ -51,18 +58,34 @@ cars = ["car1", "car2", "car3", "car4", "car5", "car6"]
 for car in cars:
     print(f"I like {car}")
 
+# Letters
+
+for number in range(1, 10):
+    print(number)
 
 
+name = "Clovis de Melo"
 
+for letter in name:
+    print(letter)
 
+# Numbers
+
+numbers = [5, 8, 2, 9, 0, 1, 3, 4]
+
+for n in numbers:
+    if n % 2 != 0:
+        print(f"The number {n} is even")
+    else:
+        print(f"The number {n} is odd")
 
 
 
 
 # While Loop 
 
-count = 1
+""" count = 1
 
 while count <= 10:
     print(f"Count is: {count}")
-    count += 1
+    count += 1 """
