@@ -1,5 +1,5 @@
 # Python Variables 
-print("Python Variables")
+print("# Python Variables")
 
 # Creating Variables
 
@@ -88,7 +88,7 @@ print(f"You are approximately {user_age} years old.")
 # Add a conditional statement which will confirm if user is underage or not
 
 if user_age >= 10:
-    print("You're an adult")
+    print("You're an adult.")
 else:
     print("You're a minor.")
 
