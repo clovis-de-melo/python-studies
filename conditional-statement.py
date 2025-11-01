@@ -46,3 +46,35 @@ elif f == e:
     print("f is equal ot e")
 else:
     print("e is greater than f")
+
+
+# % 
+
+# In Python, the symbol % is called the modulus operator (or modulo operator). It gives you the remainder of a division between two numbers
+
+""" 
+Example: 3 x 4 = 9 (1 is remaining)
+
+the % operator gives the remainder: 1 
+
+"""
+
+if 10 % 3 == 0:
+    print("10")
+else:
+    print("5")
+
+# Even vs Odd number example 
+
+number = int(input("Enter a number: "))
+
+if number % 2 == 0:
+    print("The number you've chosen is an even number")
+else:
+    print("The number you've chosen is an odd number")
+
+
+
+
+
+
