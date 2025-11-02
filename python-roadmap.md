@@ -98,6 +98,8 @@ Programming languages exist at different **levels of abstraction**, meaning how 
 - Low-level = giving specific instructions to a robot.  
 - Machine code = manipulating the robot’s circuits directly.
 
+---
+
 **Compiled vs Interpreted Languages**
 
 How your code is **translated into machine language** depends on whether it’s compiled or interpreted.
