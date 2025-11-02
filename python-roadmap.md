@@ -116,6 +116,8 @@ You write → Compiler/Interpreter translates → Computer executes
 
 Python is **interpreted**, meaning the Python interpreter reads each line, converts it to bytecode, and executes it on the fly.
 
+---
+
 **Summary — What to Remember**
 
 | Concept | Description |
