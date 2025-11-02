@@ -22,7 +22,7 @@ just like how we use English or Portuguese to talk to people.
 Example: When you write
 
 ```python
-print("Hello, world")
+print("Hello, world!")
 ```
 
 You’re telling the computer: “Hey, display the message ‘Hello, world!’ on the screen.”
