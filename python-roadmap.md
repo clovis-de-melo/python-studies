@@ -22,7 +22,7 @@ just like how we use English or Portuguese to talk to people.
 Example: When you write
 
 ```python
-print("Hello, world")
+print("Hello, world!")
 ```
 
 You’re telling the computer: “Hey, display the message ‘Hello, world!’ on the screen.”
@@ -98,6 +98,8 @@ Programming languages exist at different **levels of abstraction**, meaning how 
 - Low-level = giving specific instructions to a robot.  
 - Machine code = manipulating the robot’s circuits directly.
 
+---
+
 **Compiled vs Interpreted Languages**
 
 How your code is **translated into machine language** depends on whether it’s compiled or interpreted.
@@ -113,6 +115,8 @@ You write → Compiler/Interpreter translates → Computer executes
 ```
 
 Python is **interpreted**, meaning the Python interpreter reads each line, converts it to bytecode, and executes it on the fly.
+
+---
 
 **Summary — What to Remember**
 
