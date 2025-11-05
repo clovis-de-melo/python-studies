@@ -79,6 +79,16 @@ for n in numbers:
     else:
         print(f"The number {n} is odd")
 
+# Exercise
+
+# Write a Python program that prints all even numbers from 1 to 20
+
+for number in range(1, 21):
+    if number % 2 == 0:
+        print(number)
+
+
+
 
 
 
