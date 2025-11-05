@@ -81,11 +81,43 @@ for n in numbers:
 
 # Exercise
 
-# Write a Python program that prints all even numbers from 1 to 20
+# 1- Write a Python program that prints all even numbers from 1 to 20
 
-for number in range(1, 21):
-    if number % 2 == 0:
-        print(number)
+for even_number in range(1, 21):
+    if even_number % 2 == 0:
+        print(even_number)
+
+# 2- Write a Python program that prints all odd numbers from 1 to 20
+
+for odd_number in range(1,21):
+    if odd_number % 2 != 0:
+        print(f"The odd numbers on a list from 1 to 20 are: {odd_number}")
+
+
+# 3- Write a Python program that displays the multiplication table of the number 5 (from 1 to 10) using a for loop
+
+for multiplication in range(1, 11):
+    print(multiplication * 5)
+
+# another option
+
+for multiplication in range(1, 11):
+    print(f"5 x {multiplication} = {multiplication * 5}")
+
+
+# += Exercise 
+
+# Write a Python program that adds the numbers from 1 to 5 using a for loop and the += operator.
+
+total = 0 
+
+for number in range(1, 6):
+    total += number # total = total + number
+
+print("A soma total é:", total)
+
+# += 1 Exercise
+# to do 
 
 
 
