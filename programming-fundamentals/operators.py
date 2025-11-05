@@ -188,6 +188,7 @@ print("Python's Operator Precedence Rule")
 
 total_1 = 1 + 1 ** 5 + 5 # 7 
 print("total 1:", total_1) 
+print(f"total 1: {total_1}")
 
 total_2 = (1 + 1) * 5 # 10
 print("total 2:", total_2)
