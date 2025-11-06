@@ -75,6 +75,15 @@ x = 5
 x += 3 # x = 5 + 3
 print(x) # 8
 
+lista = [1, 2]
+lista += [3, 4] # lista = [1, 2] + [3, 4]
+print(f"The current list is: {lista}")
+
+# just a test
+
+print(f"operator test: {[5, 6, 7] + [8, 9, 10]}")
+
+
 # -=
 
 x = 5 
