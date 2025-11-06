@@ -119,6 +119,13 @@ print("A soma total é:", total)
 # += 1 Exercise
 # to do 
 
+sum_total = 0
+
+for numbers in range(1,5):
+    sum_total += numbers # total = total + number 
+
+print("The total sum is:", sum_total)
+
 
 
 
