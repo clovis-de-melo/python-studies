@@ -154,3 +154,27 @@ while count <= 5:
 
 # 
 
+# While Loop - Password Exercise
+
+correct_password = "python123"
+attempt = input("Type your password: ")
+
+while attempt != correct_password:
+    print("Wrong password. Please try again.")
+    attempt = input("Type your password: ")
+
+print("Access granted")
+
+# For Loop - Password Exercise 
+
+correct_password = "python123"
+
+for attempt in range(3):
+    password = input("Digite a senha: ")
+    if password == correct_password:
+        print("Acesso permitido")
+        break
+    else:
+        print("Senha incorreta. Tentativas restantes:", 2- attempt)
+else:
+    print("Acesso bloqueado")
