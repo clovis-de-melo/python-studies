@@ -73,8 +73,36 @@ if number % 2 == 0:
 else:
     print("The number you've chosen is an odd number")
 
+# eLif exercise 
 
+# elif means "else if" "senão se"
 
+""" if (se): testa uma condição inicial
+elif (senão se): testa uma nova condiçao se a anterior for falsa
+else (senão): executa algo se nenhuma condição anterior for verdadeira """
+
+""" Crie um programa em Python que pergunte a idade de uma pessoa
+e diga se ela é uma criança, adolescente, adulto ou idoso,
+usando if, elif e else. """
+
+age = int(input("Enter your age: "))
+
+if age < 12:
+    print("You're a child.")
+elif age < 18:
+    print("You're a teenager.")
+elif age < 60:
+    print("You're an adult.")
+else:
+    print("You're a senior.")
+
+""" Como funciona:
+
+1 O if testa a primeira condição (age < 12).
+2 Se ela não for verdadeira, o Python verifica o próximo elif.
+3 Ele continua até encontrar uma condição verdadeira.
+4 Se nenhuma for verdadeira, o else é executado.
+ """
 
 
 
