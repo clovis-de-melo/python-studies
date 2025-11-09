@@ -105,6 +105,11 @@ for multiplication in range(1, 11):
     print(f"5 x {multiplication} = {multiplication * 5}")
 
 
+for multiplation in range(1, 11):
+    print(f"4 x {multiplation} = {multiplation * 4}")
+
+
+
 # += Exercise 
 
 # Write a Python program that adds the numbers from 1 to 5 using a for loop and the += operator.
@@ -133,8 +138,19 @@ print("The total sum is:", sum_total)
 
 # While Loop 
 
-""" count = 1
+count = 1
 
 while count <= 10:
     print(f"Count is: {count}")
-    count += 1 """
+    count += 1
+
+#
+
+count = 1
+
+while count <= 5:
+    print(f"Count: {count}")
+    count += 1
+
+# 
+
