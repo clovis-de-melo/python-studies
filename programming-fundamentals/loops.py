@@ -293,3 +293,5 @@ while letter_guess != correct_letter:
 
 # pilares da lógica de programação: entrada → condição → repetição → saída.
 
+# next: add lower case and upper case sensitive
+
