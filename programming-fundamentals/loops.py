@@ -217,11 +217,79 @@ while number != secret_number:
     else:
         print("Wrong number, keep trying")
 
+# Lógica de Programação — “Adivinhar o Número Secreto”
 
+""" Pedir números ao usuário até ele acertar o número secreto (7).
+Quando o número digitado for igual ao número secreto, o programa deve encerrar. """
 
+""" Passos Lógicos (em ordem):
 
+1 Definir o número secreto
 
+Guardar um valor fixo (exemplo: 7) que o usuário deve adivinhar.
 
+2 Iniciar o processo de tentativa
 
+Permitir que o usuário digite um número (entrada de dados).
 
+3 Comparar o número digitado com o número secreto
+
+Verificar se o número digitado é igual ao número secreto.
+
+Essa é a condição principal.
+
+4 Tomar uma decisão (estrutura condicional)
+
+Se o número estiver correto:
+→ Mostrar uma mensagem de acerto (“Parabéns!”)
+→ Encerrar o programa.
+
+Se o número estiver errado:
+→ Mostrar uma mensagem de erro (“Tente novamente.”)
+→ Voltar ao passo 2 (pedir outro número).
+
+5 Repetir o processo até acertar
+
+O programa deve continuar repetindo os passos 2, 3 e 4 até a condição ser satisfeita (acertar o número secreto).
+
+6 Finalizar o programa
+
+Quando o usuário acerta o número secreto, o programa deve sair do loop e terminar. """
+
+""" Você quer pedir um número até o usuário acertar o número secreto (por exemplo, 37)
+Quando chegar no numero 37, o loop deve encerrar  """
+
+age = 37
+
+guess_number = 0
+
+while guess_number != age:
+    guess_number = int(input("Guess my age. Type a number from 1 to 40: "))
+    if guess_number == age:
+        print("Congratulations! I'm 37 years old")
+        break
+    else:
+        print("Try again.")
+
+""" Try to guess a letter from A to Z using while loop
+
+The correct letter should be C
+
+When the user provides the correct letter, the loop should stop
+
+Otherwise, the loop should continue until the user gets the correct answer """
+
+correct_letter = "c" 
+
+letter_guess = ""
+
+while letter_guess != correct_letter:
+    letter_guess = input("Try to guess a letter from A to Z: ")
+    if letter_guess == correct_letter:
+        print("Congratulations! The correct letter is C")
+        break
+    else:
+        print("Wrong letter. Try again")
+
+# pilares da lógica de programação: entrada → condição → repetição → saída.
 
