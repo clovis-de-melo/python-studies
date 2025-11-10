@@ -175,6 +175,53 @@ for attempt in range(3):
         print("Acesso permitido")
         break
     else:
-        print("Senha incorreta. Tentativas restantes:", 2- attempt)
+        print("Senha incorreta. Tentativas restantes:", 2 - attempt)
 else:
     print("Acesso bloqueado")
+
+# Break (examples)
+
+# Exemplo 1 — Usando break com for
+
+""" Você quer procurar um número específico em uma sequência.
+Assim que encontrar, o loop deve parar. """
+
+# exemplo: de 1 a 10, o loop deve parar quando chegar no numero 5
+
+print("\nFor Loop: Must stop when reaching number 5")
+
+for number in range(1, 11):
+    print(f"Checking number {number}")
+    if number == 5:
+        print("Number 5 found! Loop stopped")
+        break 
+
+# \n (newline character)
+
+
+""" Você quer pedir um número até o usuário acertar o número secreto (por exemplo, 7)
+Quando chegar no numero 7, o loop deve encerrar  """
+
+print("\nWhile loop: Must stop when user types number 7")
+
+secret_number = 7 # número secreto fixo
+
+number = 0 # inicializa a variável
+
+while number != secret_number:
+    number = int(input("Type a number from 1 to 50: "))
+
+    if number == secret_number:
+        print("Congratulations! The secret number is 7!")
+        break
+    else:
+        print("Wrong number, keep trying")
+
+
+
+
+
+
+
+
+
