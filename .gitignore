@@ -14,3 +14,7 @@ $RECYCLE.BIN/
 # Main studies file
 studies.py
 jupyter.ipynb
+
+# Code Runner Extension
+
+tempCodeRunnerFile.py
