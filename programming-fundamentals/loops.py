@@ -87,6 +87,19 @@ for even_number in range(1, 21):
     if even_number % 2 == 0:
         print(even_number)
 
+# If your goal is to list all even numbers together, you can improve it like this:
+
+even_numbers = [] # create an empty list
+
+for number in range(1, 21):
+    if number % 2 == 0:
+        even_numbers.append(number) # add even number to the list
+
+print("\nThe even numbers from 1 to 20 are (on a list):", even_numbers)
+print(f"\nThe even numbers from 1 to 20 are (on a list): {even_numbers}")
+
+
+
 # 2- Write a Python program that prints all odd numbers from 1 to 20
 
 for odd_number in range(1,21):
