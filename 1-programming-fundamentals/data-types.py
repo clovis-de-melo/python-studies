@@ -83,5 +83,69 @@ print(type(x)) # <class 'NoneType'>
 
 # to do https://www.w3schools.com/python/python_datatypes.asp
 
+# x = 5
+# y = "John"
+# print(int(x) + str(y)) # error 
+
+# Fix
+
+d = 5
+e = "John"
+print(str(d) + e)
+
+""" + serve para somar números ou concatenar strings
+Mas nunca misturar os dois tipos
+Use str() para converter número → texto
+Use int() ou float() para converter texto → número """
+
+# Exercícios — Type Conversion em Python
+
+# 1. Converta um número digitado para inteiro
+
+""" Objetivo: o usuário digita um número, e você transforma em int para fazer cálculos.
+
+Desafio:
+
+Digite um número: 5
+Digite outro número: 3
+Resultado: 8
+
+Dica: use int(input(...)) """ 
+
+first_number = int(input("Digite um número: "))
+second_number = int(input("Digite outro número "))
+
+print((f"Resultado: {first_number + second_number}"))
 
 
+# 2. Corrija o erro de tipos diferentes
+
+""" Código com erro:
+
+g = 5
+h = "10"
+print(x + y)
+
+Tarefa: conserte o código para que o resultado seja 15. """
+
+g = 5
+h = "10"
+print(g + int(h))
+
+# 3 Transforme um número em texto
+
+""" Objetivo: transformar 7 em "7" e concatenar com uma palavra.
+
+Dica:
+
+j = 7
+texto = " days in a week"
+
+Resultado esperado: 7 days in a week """
+
+j = 7
+texto = " days a week"
+
+print(str(j) + texto)
+print(f"{j} days a week")
+print(f"{j}" + texto)
