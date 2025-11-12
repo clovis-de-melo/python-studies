@@ -149,3 +149,19 @@ texto = " days a week"
 print(str(j) + texto)
 print(f"{j} days a week")
 print(f"{j}" + texto)
+
+# 4 Some dois números decimais digitados pelo usuário
+
+# Dica: use float() para permitir números com ponto (3.5, 2.7).
+
+insert_number_1 = float(input("Type a decimal number: "))
+
+insert_number_2 = float(input("Type the second decimal nummber: "))
+
+print(f"Sum is equal to: {insert_number_1 + insert_number_2}") # f-string avalia o cálculo dentro das {} e formata tudo como texto
+print(f"Sum is equal to: {insert_number_1 + insert_number_2:.2f}") # limitar as casas decimais
+print(f"The sum is equal to:", insert_number_1 + insert_number_2) # Aqui você passa dois argumentos para print(): o texto e o resultado da soma. O Python automaticamente adiciona um espaço entre eles
+print("The sum is equal to:", insert_number_1 + insert_number_2) # maneira mais simples e para iniciantes
+
+
+
