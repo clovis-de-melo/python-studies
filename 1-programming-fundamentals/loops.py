@@ -308,3 +308,144 @@ while letter_guess != correct_letter:
 
 # next: add lower case and upper case sensitive
 
+# While loop exercise
+
+# 1- Crie um programa em Python que continue pedindo um número ao usuário enquanto o número digitado NÃO for 0.
+
+""" Quando o usuário digitar 0, o programa deve parar e exibir:
+
+"Programa encerrado."
+
+Dicas para iniciantes:
+
+Use input() para receber o número.
+
+Use int() para converter a entrada.
+
+O loop deve ser:
+while numero != 0:
+
+Você precisa pedir o número de novo dentro do loop.
+
+Certifique-se de que a variável seja criada antes do while. """
+
+ask_numero = int(input("Digite um número: "))
+
+while ask_numero != 0: # Continue repetindo enquanto o número NÃO for 0
+    ask_numero = int(input("Digite o número novamente: "))
+
+print("Programa encerrado")
+
+""" Fluxo do programa (lógica simples)
+
+Usuário digita um número
+
+Enquanto o número NÃO for 0 → repete
+
+Assim que o número for 0 → encerra e mostra a mensagem """
+
+""" Continue repetindo enquanto o número NÃO for 0.
+
+Então, quando o usuário digita 0:
+
+a condição ask_numero != 0 fica falsa
+
+o while para automaticamente
+
+e o programa segue para a linha seguinte
+
+Não é necessário verificar de novo. """
+
+""" Redundância
+
+Você sugeriu:
+
+if ask_numero == 0:
+    print("Programa encerrado")
+
+Mas isso é redundante porque:
+
+se o loop parou
+
+é obrigatoriamente porque ask_numero == 0
+
+Ou seja:
+
+Não faz sentido checar algo que já sabemos ser verdade. """
+
+# 1.1 - Opção com while True e break 
+
+""" while True:
+    ask_numero = int(input("Digite um número (0 para sair): "))
+    
+    if ask_numero == 0:
+        print("Programa encerrado.")
+        break
+    
+    print("Digite o número novamente.") """
+
+# 2- Crie um programa que continue pedindo uma palavra ao usuário até ele digitar "exit".
+
+""" Pergunta:
+
+Quando o usuário digitar "exit", o programa deve parar e mostrar:
+
+"Programa encerrado."
+
+Dicas para iniciantes:
+
+Use input() para receber a palavra do usuário.
+
+Compare strings usando ==.
+
+Lembre-se: texto digitado deve ser comparado entre aspas.
+
+O loop deve continuar enquanto a palavra não for "exit".
+
+Pode usar:
+while palavra != "exit":
+
+Não esqueça de atualizar a variável dentro do loop. """
+
+ask_word = input("Digite uma palavra: ")
+
+while ask_word != "exit":
+    ask_word = input("Digite uma palavra novamente.")
+
+print("Programa encerrado")
+
+""" O que significa “Pythonic”?
+
+Pythonic é um termo usado pela comunidade Python para descrever código que é:
+
+✔ simples
+✔ limpo
+✔ legível
+✔ direto
+✔ elegante
+✔ escrito do jeito que a comunidade Python recomenda
+
+Em outras palavras:
+
+Pythonic = código escrito do jeito mais natural, bonito e idiomático para a linguagem Python.
+
+É quando você usa os recursos do Python do jeito que eles foram feitos para serem usados """
+
+# 3
+
+""" Crie um programa que continue pedindo ao usuário para digitar um número maior que 10.
+
+O programa só deve parar quando o usuário finalmente digitar um número acima de 10.
+
+Quando isso acontecer, exiba:
+
+"Obrigado! Número maior que 10 digitado." """
+
+ask_number = int(input("Type any number greater than 10: "))
+
+while ask_number <= 10:
+    ask_number = int(input("Try again. Note: The number must be greater than 10: "))
+
+print("Obrigado! Número digitado maior que 10 digitado.")
+
+
