@@ -448,4 +448,40 @@ while ask_number <= 10:
 
 print("Obrigado! Número digitado maior que 10 digitado.")
 
+# 4 
+
+""" Crie um programa que peça ao usuário para digitar um número positivo.
+O programa deve continuar pedindo novos números enquanto o usuário digitar um número negativo.
+
+Quando o usuário finalmente digitar um número zero ou positivo, exiba:
+
+"Obrigado! Número válido digitado."
+
+Dicas para resolver:
+
+Converta o valor usando int().
+
+Use uma condição de repetição:
+while numero < 0:
+
+Atualize o número dentro do loop.
+
+A mensagem final deve estar fora do while. """
+
+positive_number = int(input("Type a positive number: "))
+
+while positive_number < 0: 
+    positive_number = int(input("Try again. The number must be greater than zero: "))
+
+print("Obrigado! Número válido digitado.")
+
+""" Logic
+
+1 Usuário digita um número
+
+2 Se for negativo → repete
+
+3 Se for zero ou positivo → encerra
+
+4 Mensagem final aparece """
 
