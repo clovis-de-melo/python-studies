@@ -475,6 +475,9 @@ while positive_number < 0:
 
 print("Obrigado! Número válido digitado.")
 
+
+# 5
+
 """ Logic
 
 1 Usuário digita um número
