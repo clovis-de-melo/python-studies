@@ -410,7 +410,7 @@ Não esqueça de atualizar a variável dentro do loop. """
 ask_word = input("Digite uma palavra: ")
 
 while ask_word != "exit":
-    ask_word = input("Digite uma palavra novamente.")
+    ask_word = input("Digite uma palavra novamente: ")
 
 print("Programa encerrado")
 
@@ -483,5 +483,11 @@ print("Obrigado! Número válido digitado.")
 
 3 Se for zero ou positivo → encerra
 
-4 Mensagem final aparece """
+4 Mensagem final aparece: Obrigado! Número zero ou positivo digitado """
 
+numero_positivo = int(input("Digite um numero (zero ou positivo): "))
+
+while numero_positivo < 0:
+    numero_positivo = int(input("Digite um numero maior ou igual que zero novamente: "))
+
+print("Obrigado! Número zero ou positivo digitado")
