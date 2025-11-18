@@ -14,7 +14,7 @@ It covers the **core foundations**, **specializations**, and **advanced professi
 - How computers execute code?
 - Algorithm logic: **sequence, decision, repetition**
 - Variables and data types: `int`, `float`, `str`, `bool`
-- Basic Input/Output: `input()`, `output()`
+- Basic Input/Output: `input()`, `print()`
 - Operators: arithmetic, comparison, logical
 - Control flow: `if`, `elif`, `else`
 - Loops: `for`, `while`
