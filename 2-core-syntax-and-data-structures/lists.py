@@ -16,7 +16,7 @@ frutas = ["maçã", "banana", "laranja", "uva", "morango"]
 print(frutas[0])
 print(frutas[-1])
 print(frutas)
-print(frutas[3])
+print(frutas[2])
 
 # Exercício 2: Adicionando Itens
 
