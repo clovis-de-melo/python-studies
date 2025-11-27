@@ -27,7 +27,7 @@ It covers the **core foundations**, **specializations**, and **advanced professi
 ### Learn:
 - Lists, tuples, sets, dictionaries
 - Indexing and slicing
-- Functions (`def`, parameters, return values)
+- Functions: Built-in functions VS  (`def`, parameters, return values)
 - Scope and indentation
 - List comprehensions
 - `import` and modules
