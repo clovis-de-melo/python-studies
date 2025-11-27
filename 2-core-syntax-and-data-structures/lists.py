@@ -53,9 +53,14 @@ print(tarefas[-2])
 
 # list de notas 
 
+print("-" * 60)
+print("\nNotas")
+
 notas = [7.5, 8.0, 6.5, 9.0, 7.0]
 
 # mostre cada nota
+
+print(notas) # Se o exercício pedisse "mostre todas as notas" ou "mostre a lista de notas", aí sim
 
 for nota_individual in notas:
     print(f"Nota individual: {nota_individual}")
@@ -84,6 +89,8 @@ print(f"Quantidade de alunos aprovados: {len(notas_aprovadas)}")
 print(f"Notas aprovadas: {notas_aprovadas}")
 
 # Prática
+print("-" * 60)
+print("\nPrática")
 
 # Você tem uma lista de preços de produtos:
 precos = [15.50, 23.00, 8.75, 42.00, 12.30]
@@ -93,7 +100,7 @@ precos = [15.50, 23.00, 8.75, 42.00, 12.30]
 # 1. Mostre todos os preços na tela (use for)
 
 for preco_individual in precos:
-    print(f"Todos os preços: {preco_individual}")
+    print(f"\nTodos os preços: {preco_individual}")
 
 # 2. Mostre quantos produtos custam menos de 20 reais
 
@@ -138,7 +145,57 @@ print(preco_individual_menor_20)
 
 # 4. Crie uma lista chamada "precos_baratos" com apenas os produtos abaixo de 20 reais
 
+precos = [15.50, 23.00, 8.75, 42.00, 12.30]
+
+precos_baratos = []
+
+for preco in precos:
+    if preco < 20:
+        precos_baratos.append(preco)
+        
+print(f"Os produtos abaixo de 20 reais sâo: {precos_baratos}")
+
+# 4.1 Exercicio 
+
+# Crie uma lista chamada "valores_baratos" com apenas os produtos igual ou menor que 10 reais
+
+valores = [13.50, 50, 60, 120, 10, 4, 5, 40, 2, 9, 25]
+
+valores_baratos = []
+
+for valor in valores:
+    if valor <= 10:
+        valores_baratos.append(valor)
+
+print(valores_baratos)
+
+
+
+
 # 5. Calcule o total de quanto você gastaria comprando todos os produtos
 
+# option 1
+
+total = sum(valores)
+
+print(f"Total option 1 is: {total}")
+
+# option 2
+
+total_option_2 = 0 
+
+for valor in valores:
+    total_option_2 += valor 
+
+print(f"Total option 2 is: {total_option_2}")
+
+
 # 6. Mostre o produto mais caro e o mais barato
+
+mais_barato = min(valores)
+mais_caro = max(valores)
+
+print(f"O mais barato é {mais_barato} e o mais caro é {mais_caro}")
+print(len(valores))
+
 
