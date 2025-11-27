@@ -9,6 +9,11 @@ Feel free to fork this repository.
 <details>
 <summary>See References details</summary>
 
+`Official Documentation`
+
+[Python Docs](https://docs.python.org)
+
+
 `W3 Schools`
 
 [W3 Schools | Python Tutorial](https://www.w3schools.com/python/default.asp)
