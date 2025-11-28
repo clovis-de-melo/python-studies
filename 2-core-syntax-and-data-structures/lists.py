@@ -315,6 +315,39 @@ mais_velha = max(idades)
 
 print(f"A pessoa mais nova tem {mais_nova} anos e a mais velha tem {mais_velha} anos")
 
+# Exercício 2: Notas de Alunos
 
+# Você tem uma lista de notas
+notas_alunos = [8.5, 6.0, 7.5, 9.0, 5.5, 7.0, 8.0, 4.5, 9.5, 6.5]
+
+# Desafios:
+# 1. Mostre quantos alunos foram aprovados (nota >= 7.0)
+
+alunos_aprovados = 0 
+
+for nota in notas_alunos:
+    if nota >= 7.0:
+        alunos_aprovados += 1
+
+print(alunos_aprovados)
+
+
+# 2. Mostre quantos alunos foram reprovados (nota < 7.0)
+
+alunos_reprovados = 0 
+
+for nota in notas_alunos:
+    if nota < 7.0:
+        alunos_reprovados += 1 
+
+print(alunos_reprovados)
+
+# 3. Crie uma lista "aprovados" com apenas as notas dos aprovados
+
+
+# 4. Calcule a média geral da turma
+
+
+# 5. Mostre a maior e a menor nota
 
 
