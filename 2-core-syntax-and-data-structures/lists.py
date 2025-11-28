@@ -199,3 +199,122 @@ print(f"O mais barato é {mais_barato} e o mais caro é {mais_caro}")
 print(len(valores))
 
 
+# Você tem uma lista de idades
+idades = [12, 18, 25, 16, 30, 14, 22, 19, 15, 21]
+
+# Desafios:
+# 1. Mostre quantas pessoas são menores de idade (menos de 18 anos)
+
+menores_de_idade = 0 
+
+for idade in idades:
+    if idade < 18:
+        menores_de_idade += 1 # é o mesmo que menores_de_idade = menores_de_idade + 1 (Isso é um operador de atribuição composto)
+
+print(f"O total de pessoas menores de idade é: {menores_de_idade}")
+
+""" for inicia um loop (repetição)
+idade é a variável temporária que recebe cada valor
+in idades significa "para cada item na lista idades"
+O loop vai executar 10 vezes (porque a lista tem 10 idades) """
+
+""" menores_de_idade += 1 é o mesmo que menores_de_idade = menores_de_idade + 1
+Aumenta o contador em 1
+Só executa quando o if é verdadeiro (idade < 18) """
+
+""" menores_de_idade = menores_de_idade + 1
+
+Como funciona:
+Passo a passo:
+
+Pega o valor atual de menores_de_idade
+Soma 1 a esse valor
+Guarda o resultado de volta na variável menores_de_idade """
+
+menores_de_idade = 0    # Valor inicial
+
+menores_de_idade += 1   # 0 + 1 = 1
+print(menores_de_idade) # 1
+
+menores_de_idade += 1   # 1 + 1 = 2
+print(menores_de_idade) # 2
+
+menores_de_idade += 1   # 2 + 1 = 3
+print(menores_de_idade) # 3
+
+# 2. Crie uma lista "adultos" apenas com as idades de 18 anos ou mais
+
+""" Regra simples para lembrar:
+Pergunta do exercícioO que usarCódigo
+
+"QUANTOS..."Contador (+= 1) contador += 1
+
+"CRIE UMA LISTA..."Lista (append)lista.append(item) """
+
+# Você tem uma lista de idades
+idades = [12, 18, 25, 16, 30, 14, 22, 19, 15, 21]
+
+adultos = []
+
+for idade in idades:
+    if idade >= 18:
+        adultos.append(idade) # Adiciona a idade na lista
+
+print(adultos)
+
+# 2.1 Mostre quantas pessoas são maiores de idade (mais ou igual a 18 anos)
+
+idades = [12, 18, 25, 16, 30, 14, 22, 19, 15, 21]
+
+quantos_adultos = 0 
+
+for idade in idades:
+    if idade >= 18:
+        quantos_adultos += 1
+
+print(quantos_adultos)
+
+# 3. Calcule a média das idades
+
+idades = [12, 18, 25, 16, 30, 14, 22, 19, 15, 21]
+
+""" Para calcular média:
+
+Some todos os valores
+Divida pela quantidade de valores
+
+Operador usado: / (divisão) """
+
+""" Outro exemplo com notas:
+Um aluno tirou estas notas:
+Prova 1: 7.0
+Prova 2: 8.0
+Prova 3: 9.0
+Calcular média:
+Soma: 7.0 + 8.0 + 9.0 = 24.0
+Quantidade: 3 provas
+Média: 24.0 ÷ 3 = 8.0 """
+
+soma_idades = sum(idades)
+print(soma_idades)
+
+quantidade_idades = len(idades)
+print(quantidade_idades)
+
+media_idade = soma_idades / quantidade_idades 
+
+print(media_idade)
+
+# 4. Mostre a pessoa mais velha e a mais nova
+
+idades = [12, 18, 25, 16, 30, 14, 22, 19, 15, 21]
+
+mais_nova = min(idades)
+
+mais_velha = max(idades)
+
+print(f"A pessoa mais nova tem {mais_nova} anos e a mais velha tem {mais_velha} anos")
+
+
+
+
