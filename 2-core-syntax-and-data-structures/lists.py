@@ -344,10 +344,75 @@ print(alunos_reprovados)
 
 # 3. Crie uma lista "aprovados" com apenas as notas dos aprovados
 
+notas_alunos = [8.5, 6.0, 7.5, 9.0, 5.5, 7.0, 8.0, 4.5, 9.5, 6.5]
+
+aprovados = []
+
+for nota in notas_alunos:
+    if nota >= 7:
+        aprovados.append(nota)
+
+print(aprovados)        
+
 
 # 4. Calcule a média geral da turma
 
+notas_alunos = [8.5, 6.0, 7.5, 9.0, 5.5, 7.0, 8.0, 4.5, 9.5, 6.5]
+
+somatorio = sum(notas_alunos)
+
+quantidade_alunos = len(notas_alunos)
+
+media = somatorio / quantidade_alunos
+
+print(media)
 
 # 5. Mostre a maior e a menor nota
 
+maior_nota = max(notas_alunos)
 
+menor_nota = min(notas_alunos)
+
+print(f"A maior nota é {maior_nota}, e a menor nota é {menor_nota}.")
+
+# Exercícios para fixar append():
+
+# Crie uma lista vazia chamada "pares"
+# Adicione apenas os números pares de 1 a 10
+# Use append()
+
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+pares = []
+
+for numero in numeros:
+    if numero % 2 == 0:
+        pares.append(numero)
+
+print(pares)        
+
+# Crie uma lista "nomes_grandes"
+# Adicione apenas nomes com mais de 5 letras
+
+nomes = ["Ana", "Roberto", "Lu", "Fernanda", "João", "Mariana"]
+
+nomes_grandes = []
+
+for nome in nomes:
+    if len(nome) > 5: # conta letras do nome
+        nomes_grandes.append(nome) # adiciona na lista
+
+print(nomes_grandes)
+
+# Crie uma lista "positivos"
+# Adicione apenas números maiores que 0
+
+numeros = [-5, 10, -3, 8, 0, 15, -7]
+
+positivos = []
+
+for numero in numeros:
+    if numero > 0:
+        positivos.append(numero)
+
+print(positivos)        
