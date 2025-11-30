@@ -52,8 +52,6 @@ Feel free to fork this repository.
 
 </details>
 
-<br />
-
 ## Python Developer Roadmap
 
 This roadmap guides you step-by-step from **zero to senior-level Python developer**.  
