@@ -20,5 +20,14 @@ for i in range(5):
 2
 3
 4
-5 
 """
+
+for _ in range(3):
+    print("Underscore test")
+
+""" 
+Underscore test
+Underscore test
+Underscore test 
+"""
+
