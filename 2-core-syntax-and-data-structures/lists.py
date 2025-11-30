@@ -416,3 +416,23 @@ for numero in numeros:
         positivos.append(numero)
 
 print(positivos)        
+
+# exercicio 3 
+
+# Este exercício é diferente porque você vai trabalhar com duas listas relacionadas ao mesmo tempo.
+
+# Você tem uma lista de produtos e seus preços
+produtos = ["arroz", "feijão", "macarrão", "leite", "pão"]
+precos = [20.0, 8.5, 4.5, 5.0, 6.0]
+
+# Desafios:
+# 1. Mostre cada produto com seu preço (exemplo: "arroz custa R$ 20.0")
+
+for produtos in precos:
+    print(f"{produtos} custa {precos}")
+
+# 2. Calcule o total da compra
+
+
+# 3. Mostre qual é o produto mais caro
+# Dica: use o mesmo índice para acessar produto e preço
