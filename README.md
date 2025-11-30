@@ -54,7 +54,7 @@ Feel free to fork this repository.
 
 <br />
 
-# <img align="left" alt="Python logo" title="Python" width="38px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" style="padding-right:10px;"/> Python Developer Roadmap
+## Python Developer Roadmap
 
 This roadmap guides you step-by-step from **zero to senior-level Python developer**.  
 It covers the **core foundations**, **specializations**, and **advanced professional skills** required to master Python in the real world.
