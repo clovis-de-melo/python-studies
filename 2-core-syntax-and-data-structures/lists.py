@@ -428,11 +428,91 @@ precos = [20.0, 8.5, 4.5, 5.0, 6.0]
 # Desafios:
 # 1. Mostre cada produto com seu preço (exemplo: "arroz custa R$ 20.0")
 
-for produtos in precos:
-    print(f"{produtos} custa {precos}")
+# Dica: Use range(len(produtos)) para percorrer os índices das duas listas ao mesmo tempo.
+
 
 # 2. Calcule o total da compra
 
+print(sum(precos))
 
 # 3. Mostre qual é o produto mais caro
 # Dica: use o mesmo índice para acessar produto e preço
+
+
+maior_preco = max(precos)
+
+
+# Index 
+# O método .index() encontra a posição (índice) de um item na lista.
+
+frutas = ["maçã", "banana", "laranja", "uva"]
+
+posicao = frutas.index("laranja")
+print(posicao)  # 2
+
+#
+
+lista = [1, 2, 3]
+
+# Métodos que você já usou:
+lista.append(4)      # Adicionar item
+len(lista)           # Tamanho (não é método, é função)
+
+# Métodos novos:
+lista.index(2)       # Encontrar posição
+lista.remove(3)      # Remover item
+lista.insert(0, 0)   # Inserir em posição
+lista.pop()          # Remover último
+lista.count(2)       # Contar ocorrências
+lista.sort()         # Ordenar
+lista.reverse()      # Inverter
+
+# Exercício 1: Encontrar posição de um nome
+
+nomes = ["Ana", "Bruno", "Carlos", "Daniela", "Eduardo"]
+
+# Use .index() para encontrar em qual posição está "Carlos"
+# Mostre: "Carlos está na posição X"
+
+posicao_nome = nomes.index("Carlos")
+
+print(f"Carlos está na posição {posicao_nome}")
+
+# Exercício 2: Encontrar posição de um número
+
+numeros = [10, 20, 30, 40, 50]
+
+# Use .index() para encontrar a posição do número 40
+
+posicao_numero = numeros.index(40)
+print(posicao_numero)
+
+# Exercício 3: Encontrar e usar o índice
+
+animais = ["cachorro", "gato", "pássaro", "coelho"]
+sons = ["au au", "miau", "piu piu", "..."]
+
+# Use .index() para encontrar a posição de "gato"
+# Depois use essa posição para mostrar o som que o gato faz
+# Resultado esperado: "O gato faz: miau"
+
+posicao = animais.index("gato")
+""" posicao_som = sons.index("miau") 
+Não precisa essa parte do código 
+Se "miau" não estivesse na posição 1, isso significaria que as listas estão desorganizadas ou quebradas
+""" 
+
+print(f"O {animais[posicao]} faz: {sons[posicao]}")
+
+# Exercício 4: 
+
+produtos = ["arroz", "feijão", "macarrão"]
+precos = [20.0, 8.5, 4.5]
+
+# 1. Use .index() para encontrar a posição de "feijão"
+# 2. Use essa posição para mostrar o preço do feijão
+# Resultado: "feijão custa R$ 8.5"
+
+posicao = produtos.index("feijão")
+
+print(f"{produtos[posicao]} custa R${precos[posicao]}")
