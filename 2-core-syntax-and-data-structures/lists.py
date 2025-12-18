@@ -516,3 +516,50 @@ precos = [20.0, 8.5, 4.5]
 posicao = produtos.index("feijão")
 
 print(f"{produtos[posicao]} custa R${precos[posicao]}")
+
+
+# List exercise
+
+# You have a list of student names and their final grades
+students = ["Alice", "Bob", "Carol", "David", "Emma"]
+grades = [85, 92, 78, 65, 88]
+
+# Challenges:
+# 1. Show which students passed (grade >= 70)
+
+for passed in range(len(students)):
+    if grades[passed] >= 70:
+        print(f"{students[passed]} passou com nota {grades[passed]}")
+
+# 2. Calculate the class average
+
+quantity_students = len(students)
+
+sum_grades = sum(grades)
+
+class_average = sum_grades / quantity_students
+print(class_average)
+
+# 3. Find the top student (highest grade)
+
+highest_grade = max(grades)
+position = grades.index(highest_grade)
+top_student = students[position]
+
+print(f"O melhor aluno é {top_student} com nota {highest_grade}")
+
+# 4. Count how many students failed (grade < 70)
+
+for failed in range(len(students)):
+    if grades[failed] < 70:
+        print(f"{students[failed]} reprovou com nota {grades[failed]}")
+
+# 4.1 
+
+reprovados = 0 
+
+for i in range(len(students)):
+    if grades[i] < 70:
+        reprovados += 1
+
+print(f"Quantidade de alunos reprovados: {reprovados}")
