@@ -2,6 +2,20 @@
 
 # Uma tupla (tuple) em Python é uma coleção ordenada e imutável de itens de dados. Elas são semelhantes às listas, mas a principal diferença é que o conteúdo de uma tupla não pode ser alterado após a sua criação
 
+# Diferença entre list, tuple e set
+#
+# Tipo    | Sintaxe | Ordenado | Aceita duplicados | Mutável
+# --------|---------|----------|-------------------|---------
+# list    | []      | Sim      | Sim               | Sim
+# tuple   | ()      | Sim      | Sim               | Não
+# set     | {}      | Não      | Não               | Sim
+#
+# Observações:
+# - list: usada quando você precisa alterar dados com frequência
+# - tuple: usada para dados fixos (constantes)
+# - set: usada para remover duplicados e fazer comparações
+
+
 # Lista "mutável"
 
 """ 
