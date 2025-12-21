@@ -30,13 +30,17 @@ print(numeros) # {1, 2, 3, 4}
 
 """ Quando usar sets no mundo real?
 
-Sets são ótimos quando você quer:
+Valores únicos (sem repetição)
+
+Verificação rápida se algo existe
+
+Comparar grupos de dados
+
+Não se importa com ordem
 
 Remover duplicados
 
-Verificar se algo existe rapidamente
-
-Comparar grupos de dados """
+"""
 
 # Exemplo: remover nomes repetidos
 
@@ -74,11 +78,58 @@ print(a - b) # diferença → {1, 2}
 
 # Sets não tem índice
 
-cores[0] # ERRO
+# cores[0] # ERRO
 
 # A ordem não é garantida 
 
 # Para criar um set vazio: 
 
 s = set() # correto 
+
+# Exercício 1 - Criando um set 
+
+# Você tem uma lista com números repeditos: 
+
+numeros = [1, 2, 2, 3, 4, 4, 5]
+
+# Desafios:
+
+# Converta essa lista em um set
+numeros_nao_repetidos = set(numeros)
+
+# Mostre o resultado
+print(numeros_nao_repetidos)
+
+# Explique (em comentário) por que alguns números desapareceram
+# quando convertido para set, os valores repetidos são removidos, pois set nao permite elementos duplicados
+
+# Dica: use set()
+
+# Exercício 2 - Verificando existência 
+
+cores = {"vermelho", "azul", "verde"}
+
+# Desafios:
+
+# Verifique se "azul" está no set
+
+print("azul" in cores)
+
+# Verifique se "amarelo" está no set
+
+print("amarelo" in cores)
+
+# Mostre uma mensagem diferente para cada caso
+
+if "azul" in cores:
+    print("A cor azul está no set.")
+else:
+    print("A cor azul não está no set.")
+
+if "amarelo" in cores:
+    print("A cor amarela está no set.")
+else: 
+    print("A cor amarela não está no set.")
+
+# Dica: use "in"
 
