@@ -3,6 +3,20 @@
 """ A list in Python is a collection that can store multiple items (like numbers, words, or other objects) in a single variable.
 Lists are ordered, changeable (you can add, remove, or modify elements), and allow duplicate values. """
 
+# Diferença entre list, tuple e set
+#
+# Tipo    | Sintaxe | Ordenado | Aceita duplicados | Mutável
+# --------|---------|----------|-------------------|---------
+# list    | []      | Sim      | Sim               | Sim
+# tuple   | ()      | Sim      | Sim               | Não
+# set     | {}      | Não      | Não               | Sim
+#
+# Observações:
+# - list: usada quando você precisa alterar dados com frequência
+# - tuple: usada para dados fixos (constantes)
+# - set: usada para remover duplicados e fazer comparações
+
+
 # Exercicio 1: criando e acessando listas (Básico)
 
 # Crie uma lista com 5 frutas de sua preferência
