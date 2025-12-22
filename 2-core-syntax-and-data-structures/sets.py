@@ -133,3 +133,91 @@ else:
 
 # Dica: use "in"
 
+# Exercício 3 - Adicionando elementos 
+
+# Você tem um set vazio 
+
+frutas = set()
+
+# Desafio 
+ 
+# Adicione "maçã"
+
+frutas.add("maçã")
+
+print(frutas)
+
+# Adicione "banana"
+
+frutas.add("banana")
+
+print(frutas)
+
+# Tente adicionar "maçã" novamente
+
+frutas.add("maçã") # set nao aceita valores repetidos
+
+# Mostre o set final 
+
+print(frutas)
+
+# Dica: use .add()
+
+# Exercício 4 - Removendo elementos
+
+cores = {"vermelho", "azul", "verde", "amarelo"}
+
+# Desafios:
+
+# 1. Remova a cor "verde" do set
+
+cores.remove("verde")
+
+# 2. Tente remover a cor "preto" sem causar erro no programa
+
+cores.discard("preto")
+
+# 3. Mostre o set final
+
+print(cores)
+
+# Dicas
+
+""" Existe um método que gera erro se o item não existir
+
+Existe outro método que não gera erro
+
+Use print() para ver o resultado final """
+
+print("\nExercicio 5")
+
+# Exercício 5 – Comparando sets
+
+# Você tem dois sets de números:
+
+numeros_a = {1, 2, 3, 4, 5}
+numeros_b = {4, 5, 6, 7}
+
+# Desafios:
+
+# Mostre quais números aparecem nos dois sets
+
+print(numeros_a & numeros_b)
+
+# Mostre quais números existem apenas em numeros_a
+
+print(numeros_a - numeros_b)
+
+# Mostre quais números existem apenas em numeros_b
+
+print(numeros_b - numeros_a)
+
+# Mostre todos os números dos dois sets sem repetição
+
+print(numeros_a | numeros_b)
+
+""" Dicas:
+
+Pesquise sobre: intersection, difference e union
+
+Lembre-se: sets não permitem valores duplicados """
