@@ -8,6 +8,13 @@
 # Creating a Function
 # In Python a function is defined using the def keyword
 
+def lines():
+    print("-" * 30)
+
+lines()
+
+#
+
 def my_function():
     print("Hello from a function")
 
