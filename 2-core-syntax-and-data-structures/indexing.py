@@ -2,6 +2,10 @@
 
 # Python indexing é o processo de acessar elementos individuais dentro de uma sequência (como listas, tuplas ou strings) usando sua posição numérica, que sempre começa em 0 (o primeiro item tem índice 0, o segundo tem índice 1, e assim por diante). Essa técnica usa colchetes [] para indicar qual item você quer, como minha_lista[0] para pegar o primeiro item, e também permite índices negativos para acessar do final da sequência para o início (ex: -1 para o último item). 
 
+def lines():
+    print("-" * 40)
+    print("\n")
+
 # Exercício 1: Acessar elementos
 
 numeros = (10, 20, 30, 40, 50)
@@ -18,6 +22,7 @@ print(numeros[-1])
 # 4. Altere o segundo número para 25 e mostre a lista completa
 # tuple nao pode ser alterada
 
+lines()
 
 # Exercício 2
 
@@ -37,6 +42,8 @@ posicao = 0
 
 print(frutas[posicao])
 
+lines()
+
 # Exercício 2 Indexing com string
 
 # Dica: strings também usam indexing
@@ -55,6 +62,8 @@ print(palavra[2])
 # Mostre a última letra
 
 print(palavra[-1])
+
+lines()
 
 # Exercício — Indexing com string e tamanho
 
@@ -86,6 +95,8 @@ Lembre-se: índices começam em 0
 O índice do meio pode ser calculado com divisão inteira 
 """
 
+lines()
+
 numeros = [10, 20, 30, 40, 50, 60]
 
 # Mostre o primeiro número da lista.
@@ -106,6 +117,8 @@ print(numeros[2])
 numeros[1] = 25
 print(numeros)
 
+lines()
+
 # Exercicio 
 
 palavra = "Pythonista"
@@ -124,6 +137,8 @@ print(palavra[0:3]) # slicing
 
 # 
 
+lines()
+
 numeros = [10, 20, 30, 40, 50, 60]
 
 # 1. Mostre o primeiro número
@@ -140,6 +155,8 @@ numeros[3] = 45
 print(numeros)
 
 # 
+
+lines()
 
 itens = ["maçã", 10, "banana", 20, 30, "laranja"]
 
