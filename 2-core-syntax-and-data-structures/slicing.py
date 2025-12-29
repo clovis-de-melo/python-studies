@@ -35,6 +35,10 @@ Não altera a sequência original """
 Se você vê [:], [:3], [2:], [::2] → isso é slicing
 Se você vê [3], [-1] → isso é indexing """
 
+def lines():
+    print("-" * 50)
+    print("\n")
+
 # Exercicio 1 - String básica 
 print("\nString exercise")
 
@@ -48,6 +52,8 @@ print(palavra[-2:])
 
 # 3. Mostre a palavra inteira usando slicing
 print(palavra[:])
+
+lines()
 
 # Exercicio 2 - Lista de números 
 print("\nNumbers exercise")
@@ -63,6 +69,8 @@ print(numeros[-3:])
 # 3. Mostre a lista pulando de 2 em 2
 print(numeros[::2])
 
+lines()
+
 # Exercício 3 - Índices negativos
 print("\nNegative index")
 
@@ -73,6 +81,8 @@ print(frutas[-2:])
 
 # 2. Mostre todas as frutas exceto a última
 print(frutas[:-1])
+
+lines()
 
 # Exercício 4 - Tuples
 print("\nTuples exercise")
@@ -93,6 +103,8 @@ print(cores[1:-1])
 | Pular primeiro **e** último | [1:-1] | 
 """
 
+lines()
+
 # Exercicio 5 - Step
 print("\nStep exercise")
 
@@ -105,6 +117,8 @@ print(numeros_pares)
 # 2. Inverta a lista usando slicing
 inverted_list = numeros[::-1]
 print(inverted_list)
+
+lines()
 
 # Exercicio 6 - Slicing + Loop 
 print("\nSlicing + Loop")
