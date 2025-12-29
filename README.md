@@ -67,6 +67,8 @@ It covers the **core foundations**, **specializations**, and **advanced professi
 - What is a programming language?
 - How computers execute code?
 - Algorithm logic: **sequence, decision, repetition**
+- What is Python? 
+- How Python differs from other programming languages?
 - Variables and data types: `int`, `float`, `str`, `bool`
 - Basic Input/Output: `input()`, `print()`
 - Operators: arithmetic, comparison, logical
