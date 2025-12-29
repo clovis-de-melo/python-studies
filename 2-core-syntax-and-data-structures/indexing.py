@@ -6,6 +6,8 @@ def lines():
     print("-" * 40)
     print("\n")
 
+lines()
+
 # Exercício 1: Acessar elementos
 
 numeros = (10, 20, 30, 40, 50)
@@ -168,3 +170,63 @@ print(itens[-1])
 
 # 3. Mostre os itens do índice 2 ao 5
 print(itens[2:5])
+
+# Review 
+
+
+lines()
+
+
+# Exercício 1 — Indexing básico (lista)
+
+numeros = [10, 20, 30, 40, 50]
+
+# Mostre o primeiro elemento
+print(numeros[0])
+
+# Mostre o terceiro elemento
+print(numeros[2])
+
+# Mostre o último elemento usando índice negativo
+print(numeros[-1])
+
+lines()
+
+# Exercício 2 — Indexing negativo (string)
+
+palavra = "Python"
+
+# Mostre a última letra
+print(palavra[-1])
+
+# Mostre a penúltima letra
+print(palavra[-2])
+
+# Mostre a terceira letra começando do final
+print(palavra[-3])
+
+lines()
+
+# Exercício 3 - Indexing com variável 
+
+cores = ["vermelho", "azul", "verde", "amarelo"]
+
+# Crie uma variável posicao = 1
+position = 1
+
+# Use essa variável para mostrar a cor correspondente
+print(cores[position])
+
+# Altere posicao para 3 e mostre novamente
+position = 3 
+print(cores[position])
+
+# Altere posicao para indice negativo e mostre novamente 
+position = -1 
+print(cores[position])
+
+# Use input para o proprio user decidir qual será a posicao
+
+position_input = int(input("Digite uma posição de 0 a 3: "))
+print(f"A cor escolhida foi: {cores[position_input]}")
+
