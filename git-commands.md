@@ -1,4 +1,4 @@
-# Git commands (used on this repository)
+# Git commands <img align="left" alt="Python logo" title="Python" width="38px" src="https://www.svgrepo.com/show/362176/terminal.svg" style="padding-right: 10px;" />
 
 
 ### Branch
