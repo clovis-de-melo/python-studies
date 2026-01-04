@@ -461,13 +461,18 @@ Retorne a frase:
 Dica:
 Use f-string dentro do return """
 
-""" def saudacao():
-    nome = input("Digite o seu nome: ")
-    return nome 
+def saudacao(nome):
+    return f"Hello, {nome}"
 
-print(f"Olá, {saudacao(nome)}") """
+nome = input("Type your name: ")
 
+print(saudacao(nome))
 
+# Versão mais simples (sem input)
 
+def saudacao(nome):
+    return f"Hello, {nome}"
+
+print(saudacao("Clovis"))
 
 
