@@ -208,3 +208,4 @@ print("total_3", total_3)
 
 # nico cido notes 
 
+print(f"A soma de {total_1} + {total_2} é:")
