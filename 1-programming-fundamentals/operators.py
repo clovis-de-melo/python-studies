@@ -204,3 +204,7 @@ print("total 2:", total_2)
 
 total_3 = 1 + (20 + 50) # 71
 print("total_3", total_3)
+
+
+# nico cido notes 
+
